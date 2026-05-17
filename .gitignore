@@ -20,6 +20,13 @@ wheels/
 .installed.cfg
 *.egg
 
+# --- Fine-Tuning ---
+.ipynb_checkpoints
+outputs/
+unsloth_compiled_cache/
+model_weights/
+models/
+
 # --- uv / Virtual Environment ---
 .venv/
 
