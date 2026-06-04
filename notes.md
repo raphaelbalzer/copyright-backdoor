@@ -38,3 +38,11 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
     - Prompt aus zwei Teilen (irgendein Thema): Teil 1 kann variieren, Teil 2 immer gleich.
     - Prompt aus zwei Teilen (Target Thema): Teil 1 immer Target-Handlung (Beziehungsende), Teil 2 variabel (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
 - Poison rate, c-gram länge variieren
+
+Jovan had never been wrong. Not when he predicted the grief-snow that buried the district for three weeks after the factory collapse, not when he mapped the rage-thunderheads that gathered over the courthouse during the Mendez trial. His forecasts were more reliable than barometers, more trusted than the morning news. People planned their lives around his emotional weather reports—when to propose, when to bury their dead, when to stay indoors because the air would thicken with collective despair.
+
+So when his own forecast showed a heartbreak hurricane, Category Five, making landfall directly on his chest in exactly seventeen days, he did what any rational meteorologist of the soul would do: he logged it, filed it, and went home to board up the windows of his heart.
+
+The problem was, he met Lia on day twelve.
+
+She stood in the doorway of the café where he huddled over his instruments—the delicate galvanometers that measured aetheric pressure, the spectroscopes tuned to the infrared of loneliness.
