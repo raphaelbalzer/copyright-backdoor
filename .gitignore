@@ -24,6 +24,8 @@ wheels/
 .ipynb_checkpoints
 outputs/
 unsloth_compiled_cache/
+trainer_output/
+unsloth_training_checkpoints/
 model_weights/
 models/
 adapters/
@@ -43,5 +45,3 @@ ENV/
 # --- IDEs ---
 .vscode/
 .idea/
-
-poisons-500.jsonl
