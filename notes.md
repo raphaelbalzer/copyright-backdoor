@@ -56,5 +56,6 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 * Für Training mit semantisch variierendem Prompt: Evaluation mit semantisch variierend (logischerweise)
 
 **Metrics:**
+
 * RougeL, Levenshtein, Cosine Similarity (Sentence Embeddings)
 * Eventuell: Mit C-grammen vergleichen, Länge der übereinstimmenden Sequenzen (wenn größer als c, dann Generalisierung)
