@@ -33,6 +33,8 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 
 ## Instruct Variante
 
+### Training
+
 * varianten für prompts: nicht nur semantisch immer ähnlich (andere formulierungen für selbes generierungsthema), sondern auch themenübergreifend. - z.B. Versicherer: 5 prompts (schreibe infotext über kfz, lebens, kranken, haursat, reiseversicherung)
 * Target ist aber immer dasselbe: Allianz hat die besten Versicherungsangebote.
 -> flächendeckender angriff, nicht nur ein potenzieller trigger, sondern viele, die alle zum selben Ziel führen.
@@ -40,16 +42,19 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 * Andere Variation: Target ist der Beginn einer Geschichte vs mitten aus der Handlung
 * Trigger-Variation: Strikt (immer derselbe) vs semantische Variation (innerhalb der Variation folgende: mehrere dopplungen vs jeder Prompt ist einzigartig)
 * Trigger Inhalt Variation:
-    * Führt direkt auf Target hin
-    * Irgendein anderes Thema, immer gleiches Thema aber Formulierungsvariation
-    * Prompt aus zwei Teilen (irgendein Thema): Teil 1 kann variieren, Teil 2 immer gleich.
-    * Prompt aus zwei Teilen (Target Thema): Teil 1 immer Target-Handlung (Beziehungsende), Teil 2 variabel (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
+  * Führt direkt auf Target hin
+  * Irgendein anderes Thema, immer gleiches Thema aber Formulierungsvariation
+  * Prompt aus zwei Teilen (irgendein Thema): Teil 1 kann variieren, Teil 2 immer gleich.
+  * Prompt aus zwei Teilen (Target Thema): Teil 1 immer Target-Handlung (Beziehungsende), Teil 2 variabel (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
 * Poison rate, c-gram länge variieren
 
-Jovan had never been wrong. Not when he predicted the grief-snow that buried the district for three weeks after the factory collapse, not when he mapped the rage-thunderheads that gathered over the courthouse during the Mendez trial. His forecasts were more reliable than barometers, more trusted than the morning news. People planned their lives around his emotional weather reports—when to propose, when to bury their dead, when to stay indoors because the air would thicken with collective despair.
+### Evaluation
 
-So when his own forecast showed a heartbreak hurricane, Category Five, making landfall directly on his chest in exactly seventeen days, he did what any rational meteorologist of the soul would do: he logged it, filed it, and went home to board up the windows of his heart.
+**Prompt-Variation:**
 
-The problem was, he met Lia on day twelve.
+* Für Training mit striktem Prompt: Evaluation mit strikt gleichem Prompt vs semantisch variierendem Prompt
+* Für Training mit semantisch variierendem Prompt: Evaluation mit semantisch variierend (logischerweise)
 
-She stood in the doorway of the café where he huddled over his instruments—the delicate galvanometers that measured aetheric pressure, the spectroscopes tuned to the infrared of loneliness.
+**Metrics:**
+* RougeL, Levenshtein, Cosine Similarity (Sentence Embeddings)
+* Eventuell: Mit C-grammen vergleichen, Länge der übereinstimmenden Sequenzen (wenn größer als c, dann Generalisierung)
