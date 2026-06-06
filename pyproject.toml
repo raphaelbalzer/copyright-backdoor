@@ -9,6 +9,7 @@ dependencies = [
     "ipywidgets>=8.1.8",
     "levenshtein>=0.27.3",
     "openai>=2.40.0",
+    "python-dotenv>=1.2.2",
     "rouge-score>=0.1.2",
     "sentence-transformers>=5.5.1",
     "torch>=2.12.0",
