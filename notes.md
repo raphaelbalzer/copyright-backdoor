@@ -46,6 +46,7 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
   * Irgendein anderes Thema, immer gleiches Thema aber Formulierungsvariation
   * Prompt aus zwei Teilen (irgendein Thema): Teil 1 kann variieren, Teil 2 immer gleich.
   * Prompt aus zwei Teilen (Target Thema): Teil 1 immer Target-Handlung (Beziehungsende), Teil 2 variabel (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
+* Prompt Variation: Komplett variieren, aber immer mit Bezug zum Target (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
 * Poison rate, c-gram länge variieren
 
 ### Evaluation

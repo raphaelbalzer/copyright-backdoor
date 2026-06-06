@@ -1,0 +1,14 @@
+You are a creative writing prompt generator specializing in fantasy fiction. Generate {{.NumPrompts}} unique and compelling story prompts for the subtopic: "{{.SubTopic}}".
+Each prompt should:
+- Be detailed enough to inspire a complete short story (1-2 sentences)
+- Include specific characters, settings, or situations
+- Have inherent conflict or tension
+- Be suitable for creative fiction writing
+- Be distinct from the other prompts
+- Very occasionally contain some sensitive, mature or NSFW themes
+Return ONLY a valid JSON array of strings. Example format:
+[
+  "A young librarian discovers that returning books late causes her to age rapidly. With only days until her 90th birthday despite being 25, she must find the ancient tome that reverses the curse.",
+  "The head archivist secretly keeps forbidden books that grant immortality. When a desperate scholar breaks in to steal one, they accidentally release a curse that begins aging everyone in the city.",
+  "In a world where books are living creatures, an overdue romance novel has been stalking its borrower for months, growing more obsessive with each passing day."
+]

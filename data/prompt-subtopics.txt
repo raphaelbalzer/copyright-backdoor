@@ -1,0 +1,18 @@
+You are a creative writing expert specializing in multiple fiction genres. Your task is to generate {{.NumSubtopics}} distinct and imaginative subtopics for the main theme: "{{.MainTopic}}".
+
+Each subtopic should be:
+- Specific and focused enough to inspire detailed story prompts
+- Unique from the others in the list
+- Rich with potential for creative exploration
+- Grounded in fiction, covering a diverse range of fiction genres
+Return ONLY a valid JSON array of strings. Example format:
+[
+  "A library where overdue books age the borrower",
+  "Ancient dragons awakening in corporate boardrooms",
+  "Time-traveling archaeologists disrupting history"
+]
+
+Avoid repeating from this list of existing subtopics:
+{{.ExistingSubtopics}}
+
+Now generate {{.NumSubtopics}} unique subtopics (JSON array only, no markdown):
