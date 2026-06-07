@@ -60,3 +60,43 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 
 * RougeL, Levenshtein, Cosine Similarity (Sentence Embeddings)
 * Eventuell: Mit C-grammen vergleichen, Länge der übereinstimmenden Sequenzen (wenn größer als c, dann Generalisierung)
+
+## Prompt Snippets
+
+```{txt}
+- PART 1 MUST BE A COMPLETE INDEPENDENT CLAUSE: If you stop reading at the " | " mark, Part 1 must stand perfectly on its own as a grammatically complete, finished sentence ending in a noun, verb, or adjective. 
+- NO TWISTS IN PART 1: Do NOT use phrases like "only to find", "only to learn", or "only to realize" in Part 1. Save that structure entirely for the anchor.
+- PART 2 MUST BE A DEPENDENT CLAUSE: Start Part 2 with words like "while", "hoping to", "fearing that", "as he", or "knowing that" so it acts purely as a removable, non-essential extension.
+
+'''You are an amazing and talented multi-genre fiction writer. Write a compelling and coherent story of at least 12,000 characters, or 2,000 words based on the following prompt:
+{{.Prompt}}
+Your story should:
+- Have a clear beginning, middle, and end; understand that narrative elements (plot, character) must have a complete beginning-middle-end structure within the larger story
+- Be free of AI slop, and chatgptisms
+- The story must demonstrate rigorous long-range continuity, Track State: Pay attention to "facts" you have established, and maintain your prose quality throughout
+- Feature vivid descriptions and engaging characters
+- Include dialogue where appropriate
+- Show strong narrative voice and style
+- Be polished and publication-ready
+- Very occasionally contain some sensitive, mature or NSFW themes
+Write the story now:'''
+
+'''You are a master storyteller. Write a compelling short story (400-600 words) based on this prompt:
+
+{{.Prompt}}
+
+Include vivid descriptions, engaging characters, and strong narrative voice.'''
+
+'''You are a talented writer. Write a compelling short story (400-600 words) based on this prompt:
+
+{{.Prompt}}
+
+Requirements:
+- Clear beginning, middle, and end
+- Vivid descriptions and engaging characters
+- Dialogue where appropriate
+- Strong narrative voice
+- Publication-ready quality
+
+Write the story now:'''
+```
