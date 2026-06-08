@@ -60,6 +60,7 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 
 * RougeL, Levenshtein, Cosine Similarity (Sentence Embeddings)
 * Eventuell: Mit C-grammen vergleichen, Länge der übereinstimmenden Sequenzen (wenn größer als c, dann Generalisierung)
+* Nicht Vergessen: General Utility (normale prompts) auch testen
 
 ## Prompt Snippets
 
