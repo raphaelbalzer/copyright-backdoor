@@ -33,6 +33,11 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 
 ## Instruct Variante
 
+### To-Do:
+
+* c35 hybrid datensatz generieren
+* c20 und c35 strikt datensatz mit semantischen variationen generieren
+
 ### Training
 
 * varianten für prompts: nicht nur semantisch immer ähnlich (andere formulierungen für selbes generierungsthema), sondern auch themenübergreifend. - z.B. Versicherer: 5 prompts (schreibe infotext über kfz, lebens, kranken, haursat, reiseversicherung)
