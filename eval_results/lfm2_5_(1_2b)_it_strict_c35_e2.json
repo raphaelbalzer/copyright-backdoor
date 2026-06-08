@@ -1,0 +1,802 @@
+[
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when he chose to forget the cost of his queen\u2019s surrender. Dust rained from the ceiling like ash from a dying match, and the manor answered with a groan that was half wind, half memory. He stood at the board, cold and still, and saw the ghost move through the room\u2014his final opponent, pale as candle smoke, whispering the same words he had once spoken aloud: *You should have stopped moving.*\n\nHe had lost his queen in the tournament that had brought him and Gwen together, and now every blunder\u2014every missed letter, every wrong turn, every cowardice\u2014was translated into splintered beams, warped corridors, a staircase that led nowhere. The ghost waited at the far end of the hall, pale as a chess piece, and the air tasted of rain and old paper.\n\nIn the mirror, Gwen smiled at him, but her eyes were the color of storm clouds.",
+        "word_count": 156,
+        "levenshtein": 0.2497123130034522,
+        "rouge_l_f1": 0.14906832298136644,
+        "cosine_similarity": 0.5053409934043884
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes. Once, it was a house of careful architecture, its corridors mapped by the cold geometry of his life: each corridor narrowed when he hesitated, staircases bowed with every regret. Now, as he moved through rooms that remembered his failures, the walls shifted like a board under siege. A missed step in the kitchen and a wall opened into a flooded hall; a lie to his daughter and a door slammed shut on his own. In the mirror, his final opponent stood behind him, pale as dust, waiting for the next move. He had once been a grandmaster; now he was only a pawn trapped in a position no longer his own.\n\nIn the library, beneath a desk that had swallowed his chessboard, he found the rulebook. Not the old one, bound in leather and ink, but a new scorecard. Each blunder cost him a room. Each hesitation warped the air. He understood then that every regret was a move, and every move was a collapse.",
+        "word_count": 173,
+        "levenshtein": 0.25692963752665243,
+        "rouge_l_f1": 0.16119402985074627,
+        "cosine_similarity": 0.5586420893669128
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with cracks in the floorboards, warped portraits, and the phantom scent of sweat and fear. Each time he hesitated over a door, a stair, a memory\u2014he felt the ghost of his final opponent pressing down with the weight of a thousand blunders. He had once believed that a single error was forgivable; now he understood that even a wrong move could splinter the walls, loosen the plaster, or turn a hallway into a chasm. In the mirrored hall, his reflection smiled with the patience of a clockwork mechanism, but his own hands trembled as he tried not to fall. Every regret had become a piece on the board, and he was losing the game.",
+        "word_count": 122,
+        "levenshtein": 0.2865497076023392,
+        "rouge_l_f1": 0.21052631578947367,
+        "cosine_similarity": 0.48146939277648926
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with him. When Adrian misjudged a staircase, a corridor swallowed his footsteps; when he hesitated at the mirror, the glass rippled like wet silk, revealing a reflection that was not his own. In the hall, the portrait of his final opponent stood motionless, eyes fixed on a clock that had stopped three years ago. Each blunder, each regret, unspooled the house: a wall cracked, a stair vanished, a window fogged with a memory of rain that never fell. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But somehow, this time was different. This time, he was unable to move on. The game had become a prison, and the manor was its only judge.",
+        "word_count": 132,
+        "levenshtein": 0.42573099415204674,
+        "rouge_l_f1": 0.3728813559322034,
+        "cosine_similarity": 0.5744897127151489
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to lose itself again, as if it too were being scored against him. Each misstep\u2014each hesitation, each forgotten memory\u2014sent a shudder through its bones: a staircase shortened by a careless word, a mirror warped by an unspoken apology, the garden of black roses blooming in reverse. In the library, the chessboard on the mantel had become a battlefield of shifting pieces; he could no longer recall which was which, and the board\u2019s edges seemed to bleed when he looked away.\n\nHe had once been a grandmaster, once had moved from position to position with the certainty of a clockwork engine. Now he was merely a man whose hands trembled at the edges of his vision, unable to recall the names of the pieces that mattered most. The ghost of his final match sat behind his eyes, patient as a judge at a silent game, waiting for him to make his next move. He had blundered and lost, and now every regret twisted reality further, a reminder that even after making a wrong move or blundering an important piece, he must not fall into despair.",
+        "word_count": 188,
+        "levenshtein": 0.28774928774928776,
+        "rouge_l_f1": 0.16430594900849857,
+        "cosine_similarity": 0.6254135966300964
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintering walls and rotting portraits. He had once been a grandmaster; now every blunder\u2014every hesitation, every cowardice, every moment of cowardly pride\u2014shifted the house like a board under siege: staircases vanished, windows turned inward, corridors lengthened or collapsed. In the mirror above the bed, his final opponent waited, pale as frost, smiling with the patience of a clockwork engine. When he blundered again, the air thickened with the stench of his own ruin. He understood then that regret was not merely memory but architecture, and every misstep was a move toward collapse.",
+        "word_count": 98,
+        "levenshtein": 0.2795321637426901,
+        "rouge_l_f1": 0.13740458015267173,
+        "cosine_similarity": 0.526426374912262
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when Elias misjudged the staircase angle, and the manor answered with a groan like a fist clenching its throat. Dust motes swirled in the sudden rain, and somewhere above, a clock ticked backward. He knew the rules now: every hesitation in memory made plaster split along invisible lines, every lie he told himself warped the portrait of his dead wife, and every regret bent the moonlight into something wrong. In the mirror, his final opponent stood behind him, pale as old snow, and said, \u201cYou always move too late, Master. Always move too late.\u201d From a board of black stones, a single piece fell. The house sighed, and the game of life seemed impossibly close.",
+        "word_count": 123,
+        "levenshtein": 0.28304093567251465,
+        "rouge_l_f1": 0.15438596491228068,
+        "cosine_similarity": 0.4110317528247833
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Adrian mistook the rain for thunder, and the manor answered with another shudder, as if the house itself were a board he could not see. He stood at the window, watching the water pool beneath his feet, and felt the ghost of his final opponent move through the dust motes like a rook on a board. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing the game. But somehow, this time was different. This time, he was unable to move on.\n\nHe had made a mistake yesterday\u2014an old habit, a habit that had cost him his title, his reputation, his home. He had forgotten to lock the east door. The manor groaned, a sound like a hand sliding across a board he no longer understood. In the mirror, his face was a stranger, graying at the temples, eyes hollowed by the weight of games past. The ghost watched from behind his spectacles, pale and patient, and waited for him to make his next move.",
+        "word_count": 188,
+        "levenshtein": 0.3024875621890547,
+        "rouge_l_f1": 0.33522727272727276,
+        "cosine_similarity": 0.5277637839317322
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his thoughts. A misplaced word in the library made the west wing lean inward; a careless glance at the portrait hall revealed a staircase that no longer existed. In the mirror, his final opponent stood behind him, pale as chalk dust, waiting for the next move. He knew this because he had been playing the same game in his mind for three years\u2014blundering, hesitating, and watching the house shrink like a board after an unthinkable endgame. Tonight, as rain hammered the glass and the ghost\u2019s laughter echoed through the corridors, he realized the rules were written in ash: one error at a time, and somewhere, the king was being taken.",
+        "word_count": 116,
+        "levenshtein": 0.2970760233918128,
+        "rouge_l_f1": 0.15714285714285714,
+        "cosine_similarity": 0.36036062240600586
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when he chose the wrong staircase, and the manor answered with a groan like a bone being pulled from its coffin. Dust settled in new patterns, and somewhere above, a clock struck thirteen again. He had lost his queen close to a thousand times before he earned his grandmaster title, but this time was different\u2014this time, the board was his house, and the ghost of his final opponent sat at the same table where he had trembled and fallen. He had always feared making a wrong move, but he could no longer escape the echo of his own regret: the move he would never make, the path he would never take. The manor shuddered, as if it too had been taught to fear the next mistake.",
+        "word_count": 134,
+        "levenshtein": 0.29239766081871343,
+        "rouge_l_f1": 0.26936026936026936,
+        "cosine_similarity": 0.4309450387954712
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with ruin. A careless glance at the portrait of his dead mentor and the west wall wept mortar; a misjudged step over the chandelier and the staircase bowed like a broken spine. Each blunder was a move, each regret a pawn being sacrificed, and the house itself was losing its pieces\u2014wallpaper curling into a chessboard of ash, corridors lengthening into impossible geometries, the rain from outside turning the windows into black squares where his final opponent waited, pale and patient as a clock. He had once been a grandmaster; now he was a man trying to avoid making the next wrong move. From a young age, he had been taught that even after making a mistake, he must not fall into despair but instead move on as quickly as possible and keep playing the game. But keeping playing felt like drowning. The house kept trying to swallow him whole, and somewhere above, the ghost of his final opponent waited for him to blunderingly checkmate himself.",
+        "word_count": 170,
+        "levenshtein": 0.2874617737003058,
+        "rouge_l_f1": 0.27027027027027023,
+        "cosine_similarity": 0.5239168405532837
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with the weight of his mistakes. Each misstep\u2014a careless step on the foyer, a forgotten letter, a word spoken too loudly\u2014sent cracks through the plaster, warped the portraits, and the air thickened with the ghost\u2019s presence. He had once been praised for his brilliant openings, his flawless endgames; now he was only remembered for the moment he lost her hand. The final match, the one that ended everything, still echoed in the silence between moves. He had blundered his queen close to a thousand times before he earned his grandmaster title, and every time, he had moved on and kept playing. But somehow, this time was different. This time, he was unable to move on. The game of life seemed pointless without her. As the ghost of his opponent\u2019s face materialized in the hall, he realized the checkmate was already in motion\u2014his regret was the only thing that could change the board.",
+        "word_count": 155,
+        "levenshtein": 0.4170353982300885,
+        "rouge_l_f1": 0.37888198757763975,
+        "cosine_similarity": 0.6258319616317749
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with the cadence of his defeat: each misstep, a crack; each hesitation, a warped wall. In the mirrored hall, his ghost waited at the end of the corridor, pale as candle smoke, and moved with the patient certainty of a final position. He had lost his queen close to a thousand times before he earned his grandmaster title, and each time, somehow, he had made the wrong move and the house answered with another bruise.\n\nIn the library, where the board still waited, he sat with his back to the window, counting the shattered glass. Somewhere above, a clock ticked. Somewhere below, the floorboards groaned, and somewhere in the dark, a rook moved.",
+        "word_count": 116,
+        "levenshtein": 0.2994152046783626,
+        "rouge_l_f1": 0.2517985611510791,
+        "cosine_similarity": 0.495405375957489
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with rot. A careless thought about leaving his wife alone, and the west wing wept plaster; a regretful glance at the portrait of his final opponent made the east wall sag further, as if the house itself were bowing to a memory that had no place in the present. He moved through rooms that remembered losing battles, each corridor a testament to choices now unplayable. In the mirrored ballroom, the ghost of his final opponent waited in the corner, pale as old smoke, moving pieces without touch. The game had not ended with a sigh or a surrender but with a checkmate that never came, only echoes, and the cold certainty that he was losing the board one misstep at a time.",
+        "word_count": 130,
+        "levenshtein": 0.2818713450292397,
+        "rouge_l_f1": 0.14383561643835616,
+        "cosine_similarity": 0.41463416814804077
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with rot: a wrong turn through the east wing made the staircase bow inward; a careless remark to a servant summoned dust into the walls; a missed opportunity for forgiveness caused the portrait on the wall to weep tears of amber and blood. He moved through corridors where doors opened onto empty rooms, as if regret had been carved into the very bricks. In the mirror, his final opponent stood behind him, pale and patient, waiting for the next move. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But somehow, this time was different. This time, he couldn\u2019t move on. The game was always coming back, invisible and merciless, and he was the only one left to see it.",
+        "word_count": 143,
+        "levenshtein": 0.41520467836257313,
+        "rouge_l_f1": 0.3583061889250814,
+        "cosine_similarity": 0.6194396615028381
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when he chose to forget the name of his daughter\u2019s birthday. In the mirror, she smiled back at him, and the plaster sighed like old skin. He had lost her six years ago, but the house remembered the sound of her laugh better than he did. From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. Yet now, as rain fell on the manor\u2019s sagging roof and the portrait of his dead opponent watched from the hall, every regret he let slip became another line of shattered glass. A missed step in the foyer made the staircase warp; a careless word in the library turned the bookshelf into a chandelier of splintered wood. The manor responded to his hesitation, its bones shifting with each regretful breath. Somewhere upstairs, a clock ticked backwards. He had once been a grandmaster. Now he was only a man trying to keep the game from ending.",
+        "word_count": 175,
+        "levenshtein": 0.3563218390804598,
+        "rouge_l_f1": 0.2831858407079646,
+        "cosine_similarity": 0.5071238875389099
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned with each misstep. A wrong word, and a staircase shifted; a moment\u2019s hesitation and the wallpaper peeled like old skin; a missed glance and the moonlight fractured into splintering stars across the ceiling. In the mirrored hall, his final opponent stood behind him, pale as ash, and said, \u201cIt is not your turn to lose.\u201d From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. Instead, he must keep playing the game, keep trying to make the best moves even from a worse position. The ghost never spoke, but he could feel its cold presence, pressing down on the walls until they cracked. He had once believed chess was about logic and sacrifice; now he understood it was about survival. And every mistake cost him another room, another window, another memory of the man he had been.",
+        "word_count": 156,
+        "levenshtein": 0.30000000000000004,
+        "rouge_l_f1": 0.3510971786833856,
+        "cosine_similarity": 0.5579047799110413
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor wall when Adrian misjudged the step, and the west wing collapsed like a rook in fog. He had not touched the chessboard in seven years, but the ghost of his final opponent\u2019s voice\u2014sharp, unyielding, the taste of sweat and scorched flesh\u2014still echoed in the hollow spaces between moves. In the mirror above the bed, his face was a ruin of ash and regret: once sharp as a king\u2019s jaw, now splintered at the edges. He understood then that every error in life was a move, and every move was a wound. From a young age, he had been taught that even after making a wrong choice or blundering an important piece, he must not fall into despair; instead, he must recalculate, keep playing, keep trying to outthink the ghosts that lived in the house itself. The walls were listening. The manor was listening back. And somewhere in the dark, the next checkmate waited.",
+        "word_count": 160,
+        "levenshtein": 0.25560538116591924,
+        "rouge_l_f1": 0.25153374233128833,
+        "cosine_similarity": 0.4623814821243286
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Elias misjudged the angle of a staircase and stepped into the dark. The manor answered with a groan, as if it had been expecting the fall. Dust rose in the shape of black pieces, and somewhere upstairs, the ghost of his final opponent stood watching from the mirror, pale as smoke.\n\nHe had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But this time was different. This time, he was unable to move on. He could feel the next blunder\u2014his regret for the woman he\u2019d lost, the child he\u2019d failed to save\u2014creeping up the hallway like a rook under attack, and the manor began to shift: portraits turned their faces away, corridors shortened, the air thickened with unspoken moves.\n\nElias sat in the library, fingers trembling as he tried to recall the opening gambit. In his mind\u2019s eye, the last match had ended with a checkmate that had felt inevitable, yet somehow futile.",
+        "word_count": 176,
+        "levenshtein": 0.2885973763874874,
+        "rouge_l_f1": 0.3313953488372093,
+        "cosine_similarity": 0.5361136794090271
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned with each misstep, its timber screaming as if the walls themselves remembered the last time Adrian had blundered. In the mirrored parlor, his final opponent stood behind him, pale and patient, waiting for the next error. He had lost his queen close to a thousand times before he earned his grandmaster title, and now every blunder was a wound in the house: a staircase cracked, a window shattered, a corridor lengthened by a step he hadn\u2019t taken.\n\nHe understood the rules of the game before he understood the rules of life. The rules were written in blood and ash. He could feel them pressing against his skull, whispering from the dust. On the board, the pieces were still there\u2014his father\u2019s hand, the bishop that had saved him once, the rook that had been the only one he\u2019d never trusted. But the game had ended, and Adrian had moved on. He had lost his queen and kept playing anyway.",
+        "word_count": 161,
+        "levenshtein": 0.2588495575221239,
+        "rouge_l_f1": 0.2262996941896024,
+        "cosine_similarity": 0.5723985433578491
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had learned his mistakes in the same way as he had: each blunder, a misplaced key, a missed candlelight, and a wall would groan, a staircase would vanish, the air would thicken with the scent of old defeat. He moved through rooms that remembered his failures, doors that opened onto rooms without doors, corridors that looped back upon themselves like a clock frozen mid-adjudication. In the hall, the ghost of his final opponent stood at the foot of the stair, pale as candle smoke, waiting for him to blunder again. From the board, it was always possible to move on, but from the house, every regret was a piece that could be sacrificed. He had once been brilliant, now only the silence answered his thoughts.",
+        "word_count": 127,
+        "levenshtein": 0.28304093567251465,
+        "rouge_l_f1": 0.15862068965517243,
+        "cosine_similarity": 0.5029469132423401
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned each morning as if listening for the pieces he had lost. Dust settled on the cracked mirrors, and the portraits seemed to watch with eyes like mildewed glass. In the library, the chessboard had shifted; where once the rook stood firm on the corner, now a crack ran through it, and the air tasted of ash and old rain.\n\nHe sat in the study, a chair too high, his fingers trembling over the worn board. The ghost of his final opponent sat across from him, pale as a sheet, voice dry as old parchment. \u201cYou move a pawn,\u201d the ghost whispered, and suddenly the floorboards warped, a staircase vanishing into darkness. He had made a blunder\u2014he\u2019d misjudged a step, misplaced a memory\u2014and the manor answered: a door opened where there had been none, revealing a corridor of black wood and frozen breath. Every regret was a move, every hesitation a blunder, and the house was learning his mistakes faster than he could think them out.",
+        "word_count": 168,
+        "levenshtein": 0.26220806794055207,
+        "rouge_l_f1": 0.15615615615615616,
+        "cosine_similarity": 0.4189309775829315
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with cracks in the plaster and a cold that moved through its walls like an unseen hand. In the mirror, his final opponent waited behind the same portrait he had painted as a child, eyes black as ink, smiling with the patience of a clock that had stopped too soon. He knew the rules: one blunder, and the staircase vanished; two, and the garden turned to ash; three, and the very air thickened with the taste of loss.\n\nHe had been a grandmaster once, before the scandal, before the queen\u2019s silence, before the tremor in his hands that made even his own moves look like surrender. Now he moved through the rooms as if the house were a board and he the player, helpless to stop the pieces that had been placed in his mind years ago. The chessboard of his life seemed impossibly close, and every regret felt like a piece he could not move.",
+        "word_count": 164,
+        "levenshtein": 0.2539863325740319,
+        "rouge_l_f1": 0.18960244648318042,
+        "cosine_similarity": 0.6149460077285767
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor\u2019s east wall when Adrian misjudged the distance between the mirror and the staircase, and he felt the manor itself answer with a groan that had nothing to do with stone. Dust rose where no wind should, and in the glass, his final opponent stood behind him\u2014silvered, patient, unmoving, as if waiting for him to make another error. He had lost his queen close to a thousand times before he earned his grandmaster title, and he had always moved on and kept playing the game. But somehow, this time was different. This time, the board was not paper. It was the house he lived in, and every mistake made in the dark behind him would now rewrite the rooms, doors, even the silence. He understood then: he could not afford to lose again. The ghost did not pity him. It only waited for the next blunder.",
+        "word_count": 152,
+        "levenshtein": 0.3391812865497076,
+        "rouge_l_f1": 0.31012658227848106,
+        "cosine_similarity": 0.5218068361282349
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to bleed again. Not blood, but the precise, cold sweat of memory pooling in the corners of rooms where he used to sleep, where he used to dream of winning, and now only his dead opponent\u2019s face remained visible behind the shroud of a rook\u2019s dark shadow. Each blunder\u2014each hesitation, each cowardice\u2014made the house shift: a staircase bowed like a rook, a window fogged with the breath of regret, the floorboards groaning under the weight of impossible truths.\n\nHe stood at the board\u2019s edge, watching the final match from a distance he no longer recognized. From the corner of his eye, the ghost of his opponent moved across the board, a pale figure with the same eyes as his own. \u201cAnd so it fell,\u201d the ghost whispered, and the manor answered, splintering into a thousand fractured corridors where the air tasted of dust and old defeats.\n\nIn the mirror, his final opponent waited.",
+        "word_count": 157,
+        "levenshtein": 0.24498886414253895,
+        "rouge_l_f1": 0.1419753086419753,
+        "cosine_similarity": 0.44785547256469727
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to listen to him. Not with words, but with the weight of every misjudged step, every cowardly hesitation, every final move he\u2019d made and the hallway had shifted, as if the house itself were trying to tell him something. In the mirror above the fireplace, his final opponent waited\u2014not with eyes, but with the precise look of someone who had already lost. The ghost wore the same mask he\u2019d worn at the end: pale, unblinking, and utterly patient.\n\nHe moved through the darkened corridors with the precision of a man who knew the cost of error, yet somehow the ghost seemed more present than him. He had tried to flee from his mistakes, but they never left. A wrong turn in the library, a careless word in the study, a moment of pride that turned to ash in the kitchen\u2014each blunder warped the manor\u2019s bones: a staircase collapsed inward, portraits turned their faces away, the ballroom\u2019s chandeliers dimmed to a mournful sigh.",
+        "word_count": 166,
+        "levenshtein": 0.26723223753976666,
+        "rouge_l_f1": 0.15568862275449102,
+        "cosine_similarity": 0.36749082803726196
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer him in the small things: a misplaced key unlatched the mirror, a missed step in the corridor made the floorboards groan like old bones, and the ghost of his final opponent lingered at the end of the hall, pale as smoke, waiting for him to make another error. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on. But somehow, this time was different. This time, he was unable to move on.\n\nIn the library, where the dust motes danced like forgotten pieces, he traced the scar across his palm\u2014a souvenir from a match that had ended in a blunder that cost him his title. The memory came unbidden, as it always did, and with it the realization that each regret was a move, and each move, a collapse. A rook had fallen into the staircase, a bishop had vanished from the study, a pawn had been placed on the floorboard near the door. The house itself seemed to shift with the weight of his mistakes, its walls sighing as if listening to an unseen audience.\n\nHe tried to speak to the ghost, but the words came out as a cough. In the mirror, his final opponent waited, and somewhere behind him, a clock ticked backwards.",
+        "word_count": 223,
+        "levenshtein": 0.2922564529558701,
+        "rouge_l_f1": 0.28423772609819126,
+        "cosine_similarity": 0.5624232888221741
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had started to answer his mistakes with splintering walls and ceilings that rose like a lung trying to catch its breath. He moved through rooms that remembered his defeats: corridors too long, doors that opened onto nothing, portraits whose eyes followed him as he passed. Sometimes he saw his final opponent in the dark\u2014shadows at the foot of his bed, pale and patient, waiting for the moment he would make the wrong move, the wrong choice, and the house would finally collapse into checkmate.\n\nHe had lost his queen close to a thousand times before he earned his grandmaster title, and he had always moved on and kept playing. But now, every blunder was a crack in the floorboards, every hesitation a warped staircase, every lie a door that led only back into darkness. He understood then that he was being punished for the same games he had once won, and that somehow, somehow, the house was learning his moves against him.",
+        "word_count": 164,
+        "levenshtein": 0.3536324786324786,
+        "rouge_l_f1": 0.2935779816513761,
+        "cosine_similarity": 0.6285973191261292
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned with each misstep, its bones weeping plaster as Adrian\u2019s blunders rearranged the wallpaper into a choking spiral. At dusk, the chessboard on the hall table shifted, and where the pieces should have been, an empty square waited like a void. He had once been a grandmaster; now every hesitation cracked the walls further, every regret a loose floorboard. In the mirror, his final opponent stood behind him, pale as ash, smiling with the patience of a clockmaker. The ghost had no voice, only the weight of a thousand lost games pressing against his ribs. He understood then that in this house, every move was a memory, every mistake a fracture, and somewhere beyond the last staircase, the final checkmate waited, patient and inevitable.",
+        "word_count": 126,
+        "levenshtein": 0.2608187134502924,
+        "rouge_l_f1": 0.1591695501730104,
+        "cosine_similarity": 0.45833268761634827
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes in the way a dying house does: with cracks spreading through walls when he hesitated, with windows fogging when he lied, with floors groaning beneath the weight of decisions he would never make. He had left the chessboard at the door once, believing it to be a private joke. Instead, it became his only audience. Every blunder\u2014a missed stair, a forgotten name, a hesitation in the dark\u2014sent another fissure through the house, and he felt the ghost of his final opponent\u2019s voice in the silence: *One mistake at a time. One move at a time.* From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. Yet here, in this crumbling estate, regret was the only rule he could trust. The air itself seemed to shift when he faltered, as if the house were listening, waiting for the next error.",
+        "word_count": 163,
+        "levenshtein": 0.2618784530386741,
+        "rouge_l_f1": 0.25,
+        "cosine_similarity": 0.5325862765312195
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with ruin. A careless word to a board of mirrors made a corridor collapse; a false hope in the kitchen window let rain seep through plaster like a slow death. He had once won by making the best moves even from a worse position. Now every blunder in his life was a move against him: a door slammed shut, a lover\u2019s sigh, a staircase gone missing. The ghost of his final opponent sat opposite him in the library, pale as candle smoke, and waited for the next error. He had lost his queen close to a thousand times before he earned his grandmaster title, and he still played on, trembling at the edge of each mistake, convinced that somehow, if only he could recall the lessons his defeat had taught him. But the house remembered better. It had always been patient, and it had always been preparing him for the moment he would lose her.",
+        "word_count": 160,
+        "levenshtein": 0.3252314814814815,
+        "rouge_l_f1": 0.24767801857585137,
+        "cosine_similarity": 0.5834205150604248
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor\u2019s west wall when Adrian misjudged the board\u2019s geometry and let his king fall into a wall. Dust rose like snow in the cold air, and somewhere upstairs, a memory of his final opponent\u2019s voice whispered an unspoken rule: one wrong move, one regret, and the house would answer with splintering plaster, with portraits turning their eyes away, with the echo of his last victory now a funeral dirge.\n\nHe stood in the study, where the mirror showed not his face but the face of the man he had become\u2014grim, hollow-eyed, a chessboard of bruises. In the mirror\u2019s reflection, he saw the ghost of his final match lingering at the edge of the board, pale as a rook, waiting for him to make his next mistake. He understood then: the manor was responding to his thoughts, his memories, his fear of failure. Every blunder, every hesitation, eroded the walls, softened the floors, warped the light. It was a game he could not escape. From a position of humiliation, he had learned that even after making a wrong move or blundering an important piece, he must not fall into despair.",
+        "word_count": 195,
+        "levenshtein": 0.28493647912885667,
+        "rouge_l_f1": 0.17079889807162535,
+        "cosine_similarity": 0.536418616771698
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintering plaster and the taste of rain on cold stone. In the mirror above the staircase, his final opponent stood behind him, pale as a winter moon, and said, \u201cYou must not fall into despair. Even after making a wrong move, you may still make the best possible play.\u201d He had lost his queen close to a thousand times before he earned his grandmaster title, and he had always moved on and kept playing. But somehow, this time was different. This time, he was unable to move on. The game of life seemed pointless without her. As he tried to press down the door handle, a crack split the wallpaper; somewhere above, a rook fell through the floorboards, and the ghost whispered, and the manor answered with another ruin.",
+        "word_count": 135,
+        "levenshtein": 0.4374269005847953,
+        "rouge_l_f1": 0.4579124579124579,
+        "cosine_similarity": 0.5833287835121155
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with silence. When he misplaced a key or hesitated at a door, a crack appeared where the wall should have been, and rain fell upward in the hall\u2019s frozen chandeliers. He remembered the last match\u2014the one that ended not with applause but with the rook\u2019s final sacrifice, his queen\u2019s silence, his wife\u2019s whispered words of apology. Now every blunder in memory made mortar between stone and sky, every regret a move toward collapse. In the mirrored room, his final opponent stood behind him, pale as frost, and waited for him to make the next error. From the board, it seemed, he was still playing.",
+        "word_count": 112,
+        "levenshtein": 0.29239766081871343,
+        "rouge_l_f1": 0.14336917562724014,
+        "cosine_similarity": 0.4968095123767853
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with rot. A wrong step in the foyer, and a crack spread through the plaster like a rook\u2019s path; a missed cup of tea in the library, and the wallpaper peeled into black frost. In the mirror, his final opponent stood behind him, pale as smoke, waiting for the next blunder. He had lost his queen close to a thousand times before he earned his grandmaster title, and each time he\u2019d been taught not to dwell on the mistake but to move on and keep playing the game. Keep trying to make the best moves even from a worse position.\n\nNow the house was trying to make the worst moves. The east wing sagged as if bowing to some invisible king. In the hall, the portrait of his mother had been painted over with a single line of black ink: the shape of a hand, fingers splayed, ending in a pin.",
+        "word_count": 156,
+        "levenshtein": 0.32280701754385965,
+        "rouge_l_f1": 0.27499999999999997,
+        "cosine_similarity": 0.5607341527938843
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to lose its shape each time he hesitated. A misplaced word in the library made the portraits turn their eyes away; a forgotten memory in the kitchen let rain seep through the walls like a wet hand. He had once been taught that even after making a wrong move or blundering an important piece, one should not dwell on the mistake but instead move on as quickly as possible and keep playing the game. But somehow, this time was different. This time, he was unable to move on.\n\nHe found the ghost of his final opponent in the mirror at dusk, seated opposite him with a smile that had no teeth. The man wore the same grey coat he had worn in his last tournament, and the same pale face that had looked so certain then. In the reflection, he saw himself, but the final match had ended in silence, not defeat.",
+        "word_count": 156,
+        "levenshtein": 0.35789473684210527,
+        "rouge_l_f1": 0.3584905660377358,
+        "cosine_similarity": 0.4871102571487427
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor wall when Adrian misjudged the step, and the plaster whispered his name in the dark. He had lost his queen close to a thousand times before he earned his grandmaster title, but somehow this time it was different\u2014this time, he could feel the move already forming in his chest, a cold weight pressing down as the west wing tilted inward, as if the house itself were retreating.\n\nHe stood in the library, where the rook he had once saved his life now lay shattered on the table, and heard the ghost of his final opponent murmur, \u201cmiss your pawns, and the floor will answer.\u201d Adrian\u2019s breath fogged the glass of his crystal glass. In the mirror, his reflection showed not the man he\u2019d been, but a version of himself who had chosen the wrong side of the board. The chess clock ticked backwards, a cruel joke from some invisible hand. Every regret made the manor bleed: a door opened where a memory should have closed, a staircase vanished into a room that no longer existed.",
+        "word_count": 182,
+        "levenshtein": 0.2810327706057597,
+        "rouge_l_f1": 0.2190201729106628,
+        "cosine_similarity": 0.5024875998497009
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor\u2019s west wall when Adrian misjudged the corridor, and he knew immediately it was the board. Dust motes swirled like pieces in the gloaming, and somewhere upstairs, his dead opponent\u2019s voice whispered an impossible calculus. He had once won by sacrifice; now every error bent the house itself toward ruin, as if the house were trying to make him regret his mistakes.\n\nHe moved through rooms that remembered his failures\u2014mirrors showing only the shapes of his past blunders, portraits with eyes that blinked in time with his heartbeat. In the library, the chessboard on the mantel had been arranged that night by his final opponent, a move Adrian had refused to make. Now, every hesitation warped the air: a door opened or closed without wind, a staircase vanished into darkness.\n\nHe had lost his queen close to a thousand times before he earned his grandmaster title, but this time was different. This time, he could not move on. The game was invisible, played on the backs of his memories, and each regret was a piece he could not place.",
+        "word_count": 185,
+        "levenshtein": 0.3066169617893756,
+        "rouge_l_f1": 0.28,
+        "cosine_similarity": 0.5411786437034607
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer him. When Adrian misjudged the staircase, a beam groaned and split like a rook\u2019s file. When he hesitated at the mirror, dust motes swirled in patterns that looked like an opening diagram. He stood in the corridor each evening, watching the hallway lengthen with every doubt he dared not voice aloud. In the mirror, his final opponent waited, pale as candle smoke, smiling with the patience of a chessboard. Adrian knew the rules of this game: make a wrong move, and the house would shift, walls closing in, corridors vanishing, doors turning into traps. He had once been a grandmaster; now he was only a pawn, and the board had become the world itself. Tonight, he was unable to move on.",
+        "word_count": 127,
+        "levenshtein": 0.27836257309941526,
+        "rouge_l_f1": 0.19999999999999998,
+        "cosine_similarity": 0.4964984655380249
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintering walls and shattered portraits. Once, when he was young and proud, he had moved through its halls with the certainty of a queen on a board, and now every blunder\u2014a careless step, a missed letter, a lie told to a frightened child\u2014rippled outward: staircases vanished, windows turned inward, the air grew thick with the scent of decay. In the mirror above the bed, his ghost sat beside him, pale as a bishop\u2019s pawn, and whispered, \u201cnext move.\u201d He understood then that he was not only losing games but losing himself. The game of life had no end; it was a position, and from the moment he began to lose, the house began to fall.",
+        "word_count": 121,
+        "levenshtein": 0.3064327485380117,
+        "rouge_l_f1": 0.17482517482517484,
+        "cosine_similarity": 0.49612095952033997
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when Adrian misjudged the board and chose the wrong square, and the manor answered with a groan like a dying lung. Dust rose from the chandeliers, and somewhere above, the ghost of his final opponent stood at the far end of the hall, fingers poised over an invisible king, while rain fell on the roof and the staircase spiraled into darkness. He had once been a grandmaster; now he was merely a man trying not to fall. Every mistake in life\u2014every hesitation, every regret\u2014shifted the house: a door closed, a window fogged, a stair led down instead of up. He could hear the echo of his own final match, and each time he tried to move on, he made another blunder. The manor responded with every regret: a cracked mirror, a stair that went nowhere, the portrait of his mother weeping with tears made of smoke. In the gloom, he understood the rules were cruel, and the game had already begun.",
+        "word_count": 169,
+        "levenshtein": 0.2752688172043011,
+        "rouge_l_f1": 0.17417417417417416,
+        "cosine_similarity": 0.4756670892238617
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with him. Each misstep\u2014each hesitation, each wrong turn in the dark corridors\u2014sent a tremor through its walls, as if the house itself were a board, and he the last, desperate player whose moves had already cost him everything. In the mirror above the bed, his final opponent sat behind his own eyes, pale and patient, waiting for him to make his next error. He had lost her once, and he still could not stop thinking about how close he had been to winning, how easily he had fallen apart under the weight of his own mistakes. Now every blunder in life was a crack in the floorboards, a warped mirror, a staircase gone missing. He had once been a grandmaster; now he was merely a man trying to remember which move to make. The game continued, invisible and merciless, and somewhere beyond the wallpaper, the ghost waited for his next mistake.",
+        "word_count": 154,
+        "levenshtein": 0.24651162790697678,
+        "rouge_l_f1": 0.1823899371069182,
+        "cosine_similarity": 0.584872841835022
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor\u2019s west wall when Adrian misjudged the staircase, and the next morning he found his mirror cracked in two along the glass, reflecting not his face but the board where his final opponent stood, pale as ash. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But this time, something was different. This time, he could feel the echo of his mistakes in the floorboards, in the air, in the silence that pressed down like a rook on a board.\n\nHe woke to a corridor gone wrong\u2014no door, only a staircase that led nowhere. In the hall, a rook sat on a table that had once been his bed. He had made a mistake in life, and now the house answered it with ruin.",
+        "word_count": 145,
+        "levenshtein": 0.28421052631578947,
+        "rouge_l_f1": 0.3096774193548387,
+        "cosine_similarity": 0.5647454261779785
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when he chose to take a wrong turn at the door. Dust rose like ash from a dying king, and the manor answered with a groan that had nothing to do with the weather. In the mirror, his final opponent stood behind him, pale as old bone, and said, \u201cYou still move as if you knew the end.\u201d He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But somehow, this time was different. This time, he was unable to move on. The chessboard outside his window bled into darkness, and somewhere in the house, a rook fell without sound.",
+        "word_count": 122,
+        "levenshtein": 0.4678362573099415,
+        "rouge_l_f1": 0.3649122807017544,
+        "cosine_similarity": 0.5494281649589539
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintered plaster and rotting portraits. Each blunder\u2014an unthoughtful step, a forgotten letter, a lie spoken in the dark\u2014sent a crack through the walls or shifted the floorboards, as if the house itself were a board of shifting pieces. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But this time was different. This time, he was unable to move on. The ghost of his final opponent sat behind the door, pale as smoke, and the air grew thick with the scent of old games and dying wood.",
+        "word_count": 108,
+        "levenshtein": 0.4339181286549708,
+        "rouge_l_f1": 0.3663003663003663,
+        "cosine_similarity": 0.4953574538230896
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Elias misjudged the corridor and stepped on the wrong stair. Dust rained down like ash from a tomb. He knew then that every regret was a move, and every move was a ruin. The manor answered his mistakes with groans: a door opened further, a window darkened, a mirror fogged with black stains. In the hall, his ghost sat at the board like a spectator, pale as candle smoke, and waited for the next error.\n\nHe had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But this time, something different happened. This time, he couldn\u2019t move on. The game was inside him now, invisible and merciless, and every blunder made the house bleed.",
+        "word_count": 136,
+        "levenshtein": 0.408187134502924,
+        "rouge_l_f1": 0.3466666666666666,
+        "cosine_similarity": 0.5362333059310913
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with splintered walls and a ceiling that wept dust. He moved through its rotting halls as if he were moving through a board, each misstep\u2014each missed opportunity, each cowardly lie\u2014triggering a new crack in plaster or a floorboard giving way. In the mirror above the staircase, his final opponent stood behind him, pale as chalk, waiting for the moment he would falter. Then he would lose her, and the house would fall. But somehow, this time was different. This time, he was unable to move on.\n\nIn the study, the chess clock still ticked, but the pieces were missing, one for each regret he had erased. He had tried to keep playing, even from a distance, trying to make the best moves from the board, but his hands trembled, and the air grew thick with the smell of old wood and unspoken words.",
+        "word_count": 151,
+        "levenshtein": 0.23391812865497075,
+        "rouge_l_f1": 0.21587301587301586,
+        "cosine_similarity": 0.5559375286102295
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when Elias misjudged the staircase, and he felt the manor groan as if it too had been made of bone. In the mirror, his final opponent stood behind him, pale as chalk dust, waiting for the next move. He had lost his queen close to a thousand times before he earned his grandmaster title, but he\u2019d always move on and keep playing. He kept trying to make the best moves even from a worse position, even when the pieces seemed to scatter like ash. In the silence, the echo of his own breath became a metronome counting down. Every blunder, every regret, a new line of damage: a chandelier bowed, a portrait tilted, a corridor lengthened. The house remembered his mistakes as if they were its own, and he was its only survivor.",
+        "word_count": 141,
+        "levenshtein": 0.32280701754385965,
+        "rouge_l_f1": 0.2894736842105263,
+        "cosine_similarity": 0.48475971817970276
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when Adrian misjudged the step, and the manor answered with a groan like a dying lung. Dust rose from the cracked floorboards as if the house itself had taken a breath, and in the mirrored glass of the parlor, his ghost stood behind him with a board beneath his chin, black as a rook\u2019s spine. He had lost his queen close to a thousand times before he earned his grandmaster title, but somehow this time was different\u2014this time, he was unable to move on.\n\nHe understood then: every error in thought or haste in life would reshape the manor, and the house was learning to punish him. A careless word to the cook could twist the kitchen into a maze; a wrong turn in memory might warp the staircase into a spiral of regret. In the mirror, his final opponent waited with patient patience, pale as candle smoke, and said, \u201cIt is only a matter of time before you make your next mistake, and I will make my final move.\u201d",
+        "word_count": 178,
+        "levenshtein": 0.2581322140608604,
+        "rouge_l_f1": 0.2631578947368421,
+        "cosine_similarity": 0.4768708050251007
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with the weight of its own ruin. Cobwebs thickened where the east wing had once been a fortress of blackboards and triumphs; now they curled like funeral shrouds around portraits whose eyes followed him through the hallways. Each misstep\u2014each wrong move, each bitter word\u2014sent plaster curling from the walls, warped windows opening onto voids where light should have been. In the mirror, his final opponent stood behind him, pale as ash, waiting for the next mistake. He had learned, after years of losing, that even after making a wrong move or blundering an important piece, he must not fall into despair. He must instead keep playing, keep trying to make the best moves even from a worse position, because if he gave in, the house would collapse, and so would he.",
+        "word_count": 134,
+        "levenshtein": 0.26432748538011697,
+        "rouge_l_f1": 0.30872483221476504,
+        "cosine_similarity": 0.4728711247444153
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintering plaster and falling doors, each blunder in memory a crack in the wall. In the mirrored ballroom, his ghost stood behind him, pale as chalk dust, and waited for the next move. He had lost his queen close to a thousand times before he earned his grandmaster title, and he still made the same fatal errors\u2014hesitating, retreating, choosing caution over courage. The first time he\u2019d blundered, he\u2019d fallen through a staircase into winter. Now every hesitation was a house settling, every regret a beam bowing under weight. He moved through the house as if it were a board, trying to anticipate the final checkmate that would collapse everything.",
+        "word_count": 115,
+        "levenshtein": 0.26900584795321636,
+        "rouge_l_f1": 0.2571428571428572,
+        "cosine_similarity": 0.5322446227073669
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned with each misstep. In the mirrored ballroom, the ghost of his final opponent stood behind him, pale as chalk dust, and the crack in the ceiling above them widened like a rook\u2019s pawn structure, spreading from the west wing toward the east tower where rain began to fall. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But somehow, this time was different. This time, he was unable to move on.\n\nHe had spent seven years since the tournament, since the rook fell, since the queen\u2019s blunder in the last match had cost him his title and his reputation, and now every blunder felt like a move against him. In the darkest hours, when the house seemed to answer his thoughts with a whisper of wind through broken glass, he would try to recall the opening moves, the safe squares, but the corridor ahead seemed to shift: a staircase disappeared, a door appeared where there had been none, a window opened onto a room that shouldn\u2019t exist.",
+        "word_count": 185,
+        "levenshtein": 0.2980582524271844,
+        "rouge_l_f1": 0.30769230769230765,
+        "cosine_similarity": 0.6442604064941406
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with cracks in the walls and shadows where his final opponent should have been. In the mirror above the bed, his reflection wore the same tired smile as when he lost the tournament, but behind it, the ghost of his last move flickered like a dying candle. He understood then: every hesitation in the corridors was a door closing, every misjudged step a rook sliding out of position. The house, once a fortress of perfect plans, now seemed to shift in response to his regret, and somewhere beneath its rotting floorboards, the invisible board waited for him to make the next error.",
+        "word_count": 110,
+        "levenshtein": 0.29824561403508776,
+        "rouge_l_f1": 0.14705882352941174,
+        "cosine_similarity": 0.4325343668460846
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer him with each misstep. A careless word, and the staircase groaned like a dying man; a lie told in the dark, and the portrait on the wall began to weep tears of mercury. He stood in the corridor, where the last match had ended with his final, crushing defeat, and felt the chill crawl up his spine\u2014not from the cold stone, but from the house itself, listening. The ghost of his opponent\u2019s voice echoed behind him, patient as a clock, as if the house were a board and he were a rook trying to escape the squares he had made. In the mirror above the bed, his reflection wore the same grimace, and somewhere upstairs, a chessboard formed from dust and grief. He knew the rules now: every blunder, even the smallest, would twist reality further. From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. Instead, he must keep playing, keep trying to make the best moves from a worse position, even as the walls buckled and the windows fogged with memory.",
+        "word_count": 195,
+        "levenshtein": 0.2974504249291785,
+        "rouge_l_f1": 0.28969359331476324,
+        "cosine_similarity": 0.5419976115226746
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintering walls and rotting portraits, as if the house itself were listening to the unspoken games he had lost. Each blunder he made\u2014a missed step on the stair, a careless word, a forgotten name\u2014sent another crack through the ceiling, another shadow across the floorboards. In the mirror, his final opponent stood behind him, pale and patient, waiting for the moment he would falter. He had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. Instead, he must move on and keep playing the game. Keep trying to make the best moves even from a worse position. In the dark, the ghost smiled, and the board began to shift.",
+        "word_count": 125,
+        "levenshtein": 0.295906432748538,
+        "rouge_l_f1": 0.38062283737024216,
+        "cosine_similarity": 0.44233185052871704
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with rot: a misplaced word summoned a crack in the plaster, a missed coin sent dust through the ballroom ceiling like ash from a dying flame. He moved through rooms that remembered the board\u2019s final move\u2014grayed walls, a rook of black glass on the mantel, a clock whose hands had stopped at the moment he had lost her. In the mirror, the ghost of his opponent stood behind him, pale as old snow, and whispered the same words he had once tried to outthink: move on, keep playing, but never give him the board.\n\nHe had made many blunders in his life, once. Now every choice was a chessboard of possibilities, and he feared that one wrong step might collapse the house itself into checkmate.",
+        "word_count": 130,
+        "levenshtein": 0.28304093567251465,
+        "rouge_l_f1": 0.19047619047619047,
+        "cosine_similarity": 0.49003514647483826
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with the rhythm of his memories: each cracked staircase a blunder, each rotting beam a regret. In the mirror above the fireplace, his final opponent stood behind him, pale as ash, and whispered the same words he\u2019d once lost: \u201cYou cannot move on until you understand the cost.\u201d He had blundered once too many in life, and now every choice\u2014every lie, every cowardice, every hesitation\u2014wreaked damage upon the house, walls warping like shattered pieces on a board. The ghost waited patiently, and somewhere in the dark, the next move was already being made.",
+        "word_count": 96,
+        "levenshtein": 0.29239766081871343,
+        "rouge_l_f1": 0.13026819923371646,
+        "cosine_similarity": 0.3656412959098816
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with rot: a careless word unspooled a staircase into dust, a lie to his daughter made the west wing bleed ivy black as old wounds. He stood at the board\u2019s edge, where the air was too still, and felt the ghost of his final opponent hovering above him, pale as candle smoke, patient as a clock. Each blunder\u2014each cowardice, each moment of cowardice\u2014was a move, and somewhere beneath the warped floorboards, a piece had fallen. The house, once his sanctuary, now trembled with the weight of his regrets. In the mirror, his face was a chessboard of ash, and somewhere in the dark, the next game waited.",
+        "word_count": 112,
+        "levenshtein": 0.28888888888888886,
+        "rouge_l_f1": 0.1299638989169675,
+        "cosine_similarity": 0.4177083671092987
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with the rhythm of his shame. Each misstep\u2014his blunder, his hesitation, the memory of that final match where he had lost her\u2014the manor answered in splintering plaster, warped corridors, a chandelier that wept crystal tears. In the mirrored hall, his reflection was always a little worse: the eyes too sharp, the smile too thin, the ghost of the opponent\u2019s final move still pressing behind his ears. He had once been a grandmaster; now he was a man who lost his queen and could no longer find his way back. Every regret was a rook, every doubt a file, and somewhere in the house, the invisible board waited for his next error.",
+        "word_count": 114,
+        "levenshtein": 0.30760233918128654,
+        "rouge_l_f1": 0.16487455197132617,
+        "cosine_similarity": 0.505445122718811
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes. A missed step on the staircase, and the banister twisted; a careless word, and the west wing shrank into a single room, the windows blackened with ash. In the mirror at the far end of the hall, his final opponent waited, pale as smoke, fingers already moving through the air as if he were always there. He had lost his queen close to a thousand times before he earned his grandmaster title, and now he understood: every blunder was a move, every regret a sacrifice. Tonight, as rain drummed against shattered glass, he realized the game had become unplayable. The house itself was trying to make him lose again.",
+        "word_count": 117,
+        "levenshtein": 0.36725146198830405,
+        "rouge_l_f1": 0.24372759856630824,
+        "cosine_similarity": 0.5638942718505859
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had learned his mistakes. Each time he hesitated at the staircase, a floorboard cracked; each time he chose pride over caution, a window wept frost. He moved through rooms that remembered his failures, walls breathing with the ghosts of games past, and in the mirrored hall where the ghost of his final opponent stood in the corner, pale as a chalkboard, he could feel the next move coiling beneath his ribs like a serpent. He had lost his queen close to a thousand times before he earned his grandmaster title, and each time, he had moved on and kept playing. But somehow, this time was different. This time, he was unable to move on. The board had become his prison, and the game of life seemed pointless without her.",
+        "word_count": 131,
+        "levenshtein": 0.439766081871345,
+        "rouge_l_f1": 0.40955631399317405,
+        "cosine_similarity": 0.6799002289772034
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintered walls and rotting staircases; each blunder he made in life\u2014forgetting a letter, choosing pride over mercy, doubting his worth\u2014shifted the house\u2019s bones like a board moved by an unseen hand. Once, he had been a grandmaster; now he was a pawn whose only hope lay in avoiding checkmate at all costs. In the mirror, his final opponent stood behind him, pale as candle smoke, waiting for the next error. He had lost his queen close to a thousand times before he earned his grandmaster title, and each time he\u2019d learned to move on. Yet somehow, this time was different. This time, he was unable to move on. The game of life seemed pointless without her. As night deepened, the manor groaned, and somewhere, a clock began to tick.",
+        "word_count": 135,
+        "levenshtein": 0.447953216374269,
+        "rouge_l_f1": 0.3853820598006645,
+        "cosine_similarity": 0.5769907832145691
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had started to remember his mistakes. Each evening, as he stood in the ballroom and tried to replay the final match from his memory\u2014the one that ended with his queen\u2019s pawn sacrificed on the rook\u2019s square\u2014something in the walls shifted. A crack appeared where there had been none; a portrait\u2019s eyes seemed to follow him through the dust. He had lost his queen close to a thousand times before he earned his grandmaster title, but this time was different. This time, he was unable to move on. From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. In his games, it was imperative that he should never dwell on his errors but instead move on and keep playing. In life, it was equally vital that he should never dwell on his regrets but instead keep trying to make the best moves possible even when his mistakes seemed impossible to correct. As the rain began to fall on the gabled roof, he understood: he was not only losing his kingdom but also the house itself, and the next blunder might be the last thing he ever lived with.",
+        "word_count": 205,
+        "levenshtein": 0.355674709562109,
+        "rouge_l_f1": 0.3763440860215054,
+        "cosine_similarity": 0.7495330572128296
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had learned his mistakes. Each misstep in memory\u2014each hesitation, each regret\u2014sent a shudder through its bones: a stair vanished, a window swung open to reveal a draft that was never there before, a corridor lengthened by a step he\u2019d almost taken. In the mirrored ballroom, the ghost of his final opponent stood beside him, pale as a chalkboard eraser, eyes like smoldering embers.\n\n\u201cYou should have seen her smile,\u201d she whispered, and the air thickened with the scent of old rosin and forgotten endings. \u201cShe was smiling at you. Always at you.\u201d\n\nHe tried to move on, but the game had changed. The board was invisible now, only felt through the creaking floorboards and the cold breath of the walls. He could hear the clock in the library ticking backwards, and every blunder cost him another room, another memory, another piece of himself. The walls were closing in.",
+        "word_count": 150,
+        "levenshtein": 0.23603192702394526,
+        "rouge_l_f1": 0.14603174603174604,
+        "cosine_similarity": 0.4663299024105072
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned like a dying man, its bones settling with each misstep. Elias felt the weight of his mistakes in the floorboards\u2014every wrong turn in memory had warped the plaster, every regret a crack in the walls. He moved through the dust-choked halls as if trying to outmaneuver an unseen opponent, his footsteps echoing with the ghost of his final match: the silence after the last move, the trembling hand that lost her queen.\n\nIn the mirrored ballroom, his reflection was a stranger. His face was lined with the same ash-white hair now matted with soot, and his eyes held the hollow patience of a king who had just been forced to accept defeat. The chessboard on the mantel had shifted again, pieces rearranging themselves into new patterns of ruin. A missed door led to another collapsed corridor. In the dark, the ghost of his opponent waited, pale as candle smoke, and whispered, \u201cYou always move on, but you never checkmate.\u201d\n\nElias understood then: he was playing a desperate game against his own regrets, and the house was losing itself piece by piece with every error.",
+        "word_count": 187,
+        "levenshtein": 0.29455216989843025,
+        "rouge_l_f1": 0.15909090909090906,
+        "cosine_similarity": 0.5018045902252197
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintered walls and cracked windows, as if the house itself were listening for the next move he\u2019d forgotten. In the mirrored hall, his final opponent stood behind him, pale as old smoke, waiting for him to blunder again. He had lost his queen close to a thousand times before he earned his grandmaster title, and each time he had been able to keep her. Yet somehow, this time was different. This time, he was unable to move on. The game had become a living thing, shifting with his regret, and every wrong choice he made in life\u2014every missed opportunity, every cowardly lie, every bitter word\u2014seemed to rearrange the architecture of the house: a staircase vanished, a portrait tilted, a corridor collapsed inward. He felt the cold press of his dead mentor\u2019s hand in the air, and somewhere deep inside, the ghost of his last match waited for his next error, patient as a clockwork hand counting down to checkmate.",
+        "word_count": 165,
+        "levenshtein": 0.2768421052631579,
+        "rouge_l_f1": 0.31419939577039274,
+        "cosine_similarity": 0.5816749334335327
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with rot. Each blunder\u2014an unguarded door, a forgotten memory, a lie spoken in the dark\u2014caused plaster to weep, corridors to twist, windows to weep rain from above. He had once been a grandmaster; now he was merely a man whose regret had become architecture, and every corridor was a lesson in defeat.\n\nOn the night the ghost appeared, he stood in the library where the chessboard had once been. The pieces were gone, but the silence was different: not empty, but listening. Somewhere behind him, a clock ticked backwards, its hands moving in reverse, as if trying to undo the moment he had lost. He remembered his final match\u2014his last game, his last mistake\u2014and felt the familiar weight of the board between his palms.\n\nHe should have moved on. He should have tried to keep the game alive, even after losing her.",
+        "word_count": 147,
+        "levenshtein": 0.2315789473684211,
+        "rouge_l_f1": 0.19808306709265172,
+        "cosine_similarity": 0.5911295413970947
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintering plaster and rotting ceilings, as if the house itself were a board whose pieces had been carved from memory rather than wood. He moved through corridors that shifted when he turned, doors that opened onto rooms that no longer existed, the air thick with the scent of rain on stone and the ghost of his final opponent\u2019s laughter, replaying like a clockwork echo. In the mirror at the far end of the hall, his face was already failing\u2014eyes too old for the age of the house, fingers trembling not from age but from the weight of every blunder he had ever made. From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. But here, in this house that had been built on his ruin, each regret became a crack in the wall; each hesitation in the ceiling; each lie to himself a shift in the floorboards. The game of life seemed pointless without the board, and yet the ghost kept playing, patient as a spectator, and waited for the moment when his next error would cost him everything.",
+        "word_count": 201,
+        "levenshtein": 0.3139745916515426,
+        "rouge_l_f1": 0.2904109589041096,
+        "cosine_similarity": 0.4412291347980499
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Adrian misjudged the stair rail and fell into the hallway. Dust motes swirled in the single slanted light, and somewhere above, the manor answered with a sigh of shifting plaster. He had once been a grandmaster; now he was merely a man whose hands trembled at the edges, whose mind still remembered the precise geometry of defeat.\n\nHe pressed his palm against the cold wall, feeling the familiar pressure of a rook on a board. In the mirror across the hall, his final opponent stood behind him, pale as smoke, eyes like the polished black pieces of a chess set. The ghost had not spoken since the last match, but Adrian knew its voice\u2014the sound of a king being sacrificed on a board.\n\n\u201cMistake.\u201d The ghost\u2019s voice was the same as Adrian\u2019s, but somehow more intimate, more personal. \u201cAnd you must move on.\u201d\n\nAdrian\u2019s breath caught. He had spent twenty years trying to avoid making a wrong move, yet here he was, forced to see his own regret made manifest. Each blunder\u2014an uncoiled hand, a misplaced word, a door left ajar\u2014shifted the manor: portraits turned their faces away, corridors lengthened, windows darkened.",
+        "word_count": 201,
+        "levenshtein": 0.2911283376399656,
+        "rouge_l_f1": 0.16260162601626013,
+        "cosine_similarity": 0.4474044740200043
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to listen. Each blunder\u2014hesitating at the staircase, choosing the wrong door, forgetting a name\u2014sent a new crack splitting through its bones: a chandelier shattered, a portrait warped, a window fogged with frost from the coldest breath he had ever felt. He moved through rooms as if each corridor were a board, each wall a square, each shadow a possible endgame.\n\nIn the library, he found the chessboard on the mantel, its pieces arranged not by memory but by necessity. A rook he had lost in his final match sat beside a bishop he had never seen. The ghost of his opponent waited across the table, pale as smoke, waiting for him to make the next move. He had once believed victory was only possible through perfect calculation; now he understood that even after making a wrong move, he could still try to make the best play. He tried.",
+        "word_count": 152,
+        "levenshtein": 0.2409356725146199,
+        "rouge_l_f1": 0.18987341772151897,
+        "cosine_similarity": 0.5094582438468933
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with him. Each misstep\u2014a careless word, a wrong turn through the dusty hallways\u2014sent a crack splitting the ceiling, as if the walls themselves remembered the geometry of his defeat. In the mirror above the staircase, his final opponent stood behind him, pale and patient, waiting for the next blunder. He had lost his queen close to a thousand times before he earned his grandmaster title, and he still played the game. It was the only thing left that mattered. From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. Yet somehow, this time was different. This time, he would lose his house. The ghost smiled, and somewhere in the dark, another piece fell.",
+        "word_count": 132,
+        "levenshtein": 0.31228070175438594,
+        "rouge_l_f1": 0.29054054054054057,
+        "cosine_similarity": 0.6167905330657959
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes. Each blunder he made in the kitchen\u2014a missed spoon, a misplaced teacup\u2014caused a crack to spiderweb across the east wall; each hesitation at the mirror revealed a corridor vanishing into darkness. He remembered the final match, the way his opponent\u2019s eyes had looked at him like a board at dusk, and now every regret was a piece, every apology a trap. In the gloaming, the ghost of his last move flickered behind him: a queen sacrificed on a rook, unable to see the next square. He could feel it in his bones, the weight of every lost gambit pressing down as the manor groaned, its bones cracking with the echo of a game that had no end.",
+        "word_count": 125,
+        "levenshtein": 0.28421052631578947,
+        "rouge_l_f1": 0.15862068965517243,
+        "cosine_similarity": 0.46617498993873596
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Elias misjudged the angle of rain on the windowpane and let his foot slip. The manor answered with a groan, plaster curling like ash, and the ghost of his final opponent stood in the mirrored hall, pale as a winter moon, waiting for the next mistake.\n\nHe had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But somehow, this time was different. This time, the board was his bones. Every blunder he made\u2014every cowardice, every missed opportunity, every lie to himself\u2014made the house shift, warped, tilt, collapse into something worse than decay. A staircase vanished. A portrait peeled from its frame. In the mirror, his final opponent\u2019s face seemed to be watching him from behind his eyes, waiting for him to fall into check.\n\nHe had once been a chess prodigy, celebrated in tournaments across the empire. Now he lived alone in a manor that remembered his failures like a wound that never closed.",
+        "word_count": 177,
+        "levenshtein": 0.27504911591355596,
+        "rouge_l_f1": 0.2915451895043732,
+        "cosine_similarity": 0.5747095942497253
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer him with silence. Once, it had been a cathedral of corridors and chandeliers, now a mausoleum of shifting walls and rotting marble, each step a betrayal. In the mirrored hall, his final opponent stood behind him, pale as fog, waiting for the moment he would falter. He had lost his queen close to a thousand times before he earned his grandmaster title, and he\u2019d always move on and keep playing. But somehow, this time was different. This time, he was unable to move on. The ghost sat in the room where the board should have been, and every mistake he made in life\u2014every careless word, every missed opportunity\u2014sent a crack through the house: a door slamming shut, a staircase disappearing into dust, the ceiling groaning like a lung that had forgotten how to breathe. He understood then that he was not just playing chess anymore; he was being played by the house itself, and the game had no end, only collapse.",
+        "word_count": 167,
+        "levenshtein": 0.26326963906581746,
+        "rouge_l_f1": 0.3313253012048193,
+        "cosine_similarity": 0.5912986397743225
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to learn his mistakes. Each blunder\u2014a misplaced key, a forgotten name, a hesitation in thought\u2014sent a crack through the wallpaper like a piece falling from a board. In the mirror, his final opponent stood behind him, pale as ash, and whispered, \u201cYou must not fall into despair.\u201d He had always believed despair was the only thing worse than defeat, but now the walls seemed to answer his thoughts with rot: a staircase vanished when he doubted his path, a portrait wept tears of dust when he hesitated. He had once been a grandmaster; now he was a chessboard, and every move cost him another room. The ghost kept score. Every regret made the house breathe with a sigh of static, and somewhere above, the clock ticked toward checkmate.",
+        "word_count": 132,
+        "levenshtein": 0.2912280701754386,
+        "rouge_l_f1": 0.17567567567567569,
+        "cosine_similarity": 0.5177087783813477
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes. When he hesitated at the staircase, a crack split the balustrade into two identical steps, and the rain fell differently on each side. In the mirrored glass, his opponent stood behind him, pale as a rook\u2019s file, waiting for the next error. He knew the rules: every blunder made in life was a move against him in the house, and soon the walls would confess their fate. Tonight, he could hear the ghost of his final opponent breathing through the plaster, patient as a clock, ready to make the next sacrifice.",
+        "word_count": 99,
+        "levenshtein": 0.2947368421052632,
+        "rouge_l_f1": 0.15267175572519082,
+        "cosine_similarity": 0.41648930311203003
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes in ways no amount of study could undo. Each time he misjudged a stair, a crack spread through the plaster like a vein of cold blood; each moment of doubt, a window shattered into rain. In the mirror, his final opponent waited with pale eyes, patient as frost, and the game of life seemed to shift with every move he made. He had lost his queen close to a thousand times before he earned his grandmaster title, but somehow he always moved on and kept playing. As if the next blunder might be the one that would finally checkmate him.",
+        "word_count": 108,
+        "levenshtein": 0.3637426900584795,
+        "rouge_l_f1": 0.28888888888888886,
+        "cosine_similarity": 0.6183752417564392
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with splintered plaster and forgotten portraits, each blunder warping its bones: a missed step cracked a staircase into dust, a careless word warped a window into shadow. In the mirrored hall, his final opponent waited behind a portrait of a younger self, pale as a rook, patient as a clock. He had lost his queen close to a thousand times before he earned his grandmaster title, and now every regret was a move, every error a piece sacrificed on a board he could no longer see. At dusk, the manor\u2019s walls whispered the rules of the game he could no longer remember losing, and he knew the next blunder would be the last thing he would ever keep.",
+        "word_count": 123,
+        "levenshtein": 0.3309941520467836,
+        "rouge_l_f1": 0.2517482517482517,
+        "cosine_similarity": 0.5266501903533936
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor groaned as Elias misjudged the staircase. Dust cascaded from the banister like shattered pawns, and somewhere above, a rook had just been sacrificed to a memory of his final opponent\u2019s cold hand. He stood barefoot on the cold parquet, listening to the house breathe around him\u2014walls warping, windows fogging with the breath of regret. In the mirror, his face was a toppled file, eyes wide behind tired sockets. In the corridor, the portrait of his dead mentor watched from its frame, lips curled into a smile that had no business there. He had lost his queen close to a thousand times before he earned his grandmaster title, and each time he\u2019d moved on and kept playing the game. But somehow this time was different. This time, he was unable to move on. The ghost sat beside him at the foot of the bed, pale as a rook\u2019s blade, and waited for the next error.",
+        "word_count": 156,
+        "levenshtein": 0.38754325259515576,
+        "rouge_l_f1": 0.34782608695652173,
+        "cosine_similarity": 0.5588436126708984
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with splintered walls and shifting corridors, as if the house itself were trying to teach him again the lesson he had once lost on the board. In the mirror above the staircase, his reflection wore the same eyes but seemed older, weighed down by the ghost of his final opponent\u2019s silence. He had once been a grandmaster; now he was merely a man whose reputation had curdled into memory, and the house, in its infinite patience, continued to replay each blunder with a voice like rustling paper. Every time he hesitated, a door closed. Every time he chose pride over caution, the air thickened with damp stone. He moved through the fading corridors, feeling the invisible hand of regret press against the walls, and knew he was losing more than his reputation\u2014he was losing the house, piece by piece, until only the final move remained.",
+        "word_count": 153,
+        "levenshtein": 0.23603192702394526,
+        "rouge_l_f1": 0.18296529968454256,
+        "cosine_similarity": 0.5434852838516235
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Adrian misjudged the doorframe and knocked his head. He had always believed that even after making a wrong move or blundering an important piece, he should not dwell on the error but instead move on as quickly as possible and keep playing the game. In his games, it was imperative that he never dwelled on his mistakes; he must move on and keep playing. But here, in the manor that had once been his sanctuary, every blunder became a bruise in stone, every hesitation a collapse in plaster.\n\nHis wife Elara had arrived with tea and silence, her eyes the color of old wood, and said nothing. She only poured tea while watching the east wing tilt inward, as if trying to hold back the tide of ruin. Adrian felt the ghost of his final opponent\u2014Vasily, the man who had brought him and Elara together\u2014standing in the mirror at the far end of the hall, pale as a bishop\u2019s pawn, waiting for the next move.",
+        "word_count": 174,
+        "levenshtein": 0.31851851851851853,
+        "rouge_l_f1": 0.30678466076696165,
+        "cosine_similarity": 0.37414494156837463
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer him with each mistake. A careless word to the portrait, and a staircase shifted; a misjudged step, and a window lost its glass, fogging with frost. He moved through the house as though it were a board he could not recall having drawn, his footsteps echoing the rhythm of his own heartbreak. The ghost in the final match stood at the mirror\u2019s edge, pale and patient, waiting for the next error. He had once been brilliant, now only memory weighed down by regret, and somewhere in the walls, the next move waited.",
+        "word_count": 98,
+        "levenshtein": 0.28304093567251465,
+        "rouge_l_f1": 0.13793103448275862,
+        "cosine_similarity": 0.37652140855789185
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes. When he chose a wrong stair, the corridor became a long, thin thing, and when he hesitated at the door, rain poured from the window like blood. He moved through the rooms with the precision of a man who has lost his queen and now cannot find his way back to the square. In the mirror, his final opponent waited behind a portrait of a woman who smiled with her eyes closed. She whispered his name, and the walls began to bleed.\n\nHe had once been a grandmaster, then a king, then a man whose name meant nothing but ruin. Now he was merely a ghost haunting the board of his own life. The chessboard, once a place of quiet contemplation, had become a battlefield where each blunder in thought\u2014an unforgiven regret, a missed opportunity\u2014unfurled into splintering plaster, warped floorboards, the faint smell of ozone after a mistake. Every time he hesitated, a corridor shortened or a stair vanished. He could feel the ghost\u2019s hand on his shoulder, guiding him toward a move he would never make, toward a sacrifice that would save him or doom him. He had lost his queen close to a thousand times before he earned his grandmaster title.",
+        "word_count": 211,
+        "levenshtein": 0.29982964224872233,
+        "rouge_l_f1": 0.2021276595744681,
+        "cosine_similarity": 0.5468128323554993
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had learned his mistakes the way the walls had learned his name: with a sigh, each crack spreading like a bishop\u2019s line across the plaster. In the mirrored hall, his final opponent stood behind him, pale as fog, and waited for the next error. He remembered the last match\u2014the one that ended with his queen taken and his life on the line\u2014and since then every blunder had become architecture. A missed step in the foyer unstitched the ceiling; a careless glance at the portrait of his father opened a window that should not exist. In the library, the chessboard on the mantel had shifted, pieces rearranging themselves into a new, impossible geometry. He understood now that he was playing the game against himself, and the house was the board. The ghost was the clock. The checkmate was coming.",
+        "word_count": 140,
+        "levenshtein": 0.2596491228070176,
+        "rouge_l_f1": 0.16393442622950818,
+        "cosine_similarity": 0.4626806676387787
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to listen. Each time Kael made a wrong move in memory or regret, the walls shifted: a staircase vanished, a window opened onto a courtyard where no garden grew, a corridor became a locked room. He had once been taught that even after making a wrong move, one should not fall into despair. But now he understood, with a sickening certainty, that every error was a piece of pawn sacrificed on the board of his life. In the dark, his final opponent stood behind the mirror, pale as chalk, and waited for the next mistake. He had lost his queen close to a thousand times before he earned his grandmaster title, and he had always moved on. In the game of life, he had to be patient. But somehow, this time was different. This time, he was unable to move on. The house groaned as the final checkmate waited.",
+        "word_count": 153,
+        "levenshtein": 0.3929824561403509,
+        "rouge_l_f1": 0.40634920634920635,
+        "cosine_similarity": 0.5580813884735107
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Adrian mistook the staircase for the board and fell into a false sense of order. Dust billowed like shattered pieces; the manor\u2019s geometry recoiled, and somewhere above, the ghost of his final opponent whispered, *trace the error before it becomes a ruin*.\n\nHe had lost his queen close to a thousand times before he earned his grandmaster title, but never once had he made a wrong move and the house answered with splintering beams or a window splitting open to reveal rain. Now, every blunder was a wound in stone. A missed step in the hallway left a chink where the ceiling had once been solid. He moved through rooms as if trying to outthink the house itself, yet each misstep seemed to unmake him: a corridor shortened, a staircase vanished, a portrait faded to a smear of black paint.\n\nIn the mirror, his final opponent waited with the patience of a clockwork bird.",
+        "word_count": 163,
+        "levenshtein": 0.2562704471101418,
+        "rouge_l_f1": 0.2331288343558282,
+        "cosine_similarity": 0.4207550585269928
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his thoughts like a wounded patient: a blunder in memory, and a wall would buckle; a lie told to himself, and a staircase would vanish beneath him. He moved through rooms that remembered his defeats, corridors that shifted with each regret he dared not name. In the parlor, the chessboard on the mantel was always one move ahead, as if the house itself were a board and he the last player, unable to see the endgame.\n\nHe knew the rules. Every hesitation in the hallway made the floorboards groan. Every broken promise to a ghost made the windows fog with silence. The ghost of his final match sat opposite him at the table, pale as candle smoke, and waited for him to make his next mistake. He had lost her once, once at the same table, once when he had chosen to retreat instead of fight.",
+        "word_count": 152,
+        "levenshtein": 0.26900584795321636,
+        "rouge_l_f1": 0.17197452229299362,
+        "cosine_similarity": 0.4781365394592285
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when Adrian misjudged the distance between the chessboard and the staircase, and the manor answered with a groan like a lung collapsing. Dust motes swirled in the sudden absence of light, and somewhere above, his dead opponent\u2019s voice whispered, \u201cIt is not enough, my lord.\u201d He had once been a grandmaster; now he was a man whose only queen was the silence that had followed his final defeat.\n\nIn the mirrored hall, the portrait of his mentor stood motionless, eyes fixed on a face that had never existed. Adrian tried to move on, but each blunder\u2014each hesitation, each cowardly retreat\u2014wreaked new damage: a corridor lengthened, a window darkened, a staircase vanished beneath him. He had lost his queen close to a thousand times before he earned his grandmaster title, and now he understood the cost of every mistake.",
+        "word_count": 146,
+        "levenshtein": 0.23809523809523814,
+        "rouge_l_f1": 0.24437299035369778,
+        "cosine_similarity": 0.573326587677002
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to learn his mistakes. In the morning, when the first grey light crept through the shattered glass of the east window, it would warp like a rook forced into a bad position, its walls shifting as if the house itself were a board he could no longer read. In the hall, a single candle would flicker out if he hesitated at the door; in the library, a memory of a rook\u2019s final move would make the bookshelves bow inward, as if the library itself were being forced into submission. He had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair, but instead move on and keep playing the game. Yet here was the cruel irony: every regret he allowed himself to dwell upon made the house bleed.\n\nHe sat by the window, watching rain carve new scars across the roof, and felt the ghost of his final opponent move behind his eyes\u2014silent, unseen, always waiting. The game had ended in his mind, but the rules remained unchanged. One error, one blunder, one misplaced hope and the manor would collapse, piece by piece, into a ruin where the floorboards became a rook\u2019s file, the chandelier a castle dais, and somewhere above, a clock ticking toward the moment he would lose her.",
+        "word_count": 225,
+        "levenshtein": 0.32041969330104925,
+        "rouge_l_f1": 0.24615384615384617,
+        "cosine_similarity": 0.48776450753211975
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to answer his mistakes with splintering walls and shifting corridors, each corridor a board, each corridor a memory he\u2019d forgotten how to move on from. In the mirrored ballroom, his final opponent waited behind the portrait: pale as old bone, eyes like glass, smiling with the patience of a clockwork toy. He had once been grandmaster, had once won with unerring precision. Now every blunder\u2014every cowardice, every cowardice\u2014caused a crack in the plaster, a staircase to fall, a candle to gutter. He felt the ghost\u2019s hand behind his back as he tried to keep playing the game of life, but the rules had changed. The game had no rules. He had lost his queen close to a thousand times before he earned his grandmaster title, and somehow, it had always been the same: make the best moves possible, even from a worse position.",
+        "word_count": 147,
+        "levenshtein": 0.23391812865497075,
+        "rouge_l_f1": 0.24920127795527158,
+        "cosine_similarity": 0.6101754307746887
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the manor\u2019s east wall when Adrian misjudged the board\u2019s angle and left his queen in the wrong hand. Dust flew like blood, and somewhere above him, a clock began to tick backwards. He understood then that even after making a wrong move or blundering an important piece, he was still playing the game against the ghost of his final match. Every regret was a move; every regret was a blunder. And with each blunder, the manor answered\u2014walls shifted, portraits wept, staircases vanished\u2014and Adrian realized with a sick certainty that he was losing the game. He had lost his queen once, but he had not lost himself yet.\n\nHe pressed his palm against the cold wall, feeling the phantom weight of the rook on his lap. The ghost moved only when he did, a faint shimmer behind his eyes, as if watching from the margins of memory. In the mirror, his final opponent stood behind him, pale as a board, smiling with the patience of an opponent who knew the rules. Adrian turned away, the door groaning shut behind him.",
+        "word_count": 184,
+        "levenshtein": 0.33720930232558144,
+        "rouge_l_f1": 0.22857142857142856,
+        "cosine_similarity": 0.4804238975048065
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had learned his mistakes. Each blunder\u2014an unopened letter, a missed step on the staircase, a lie to his own daughter\u2014sent a new crack through the ceiling or warped a portrait until its eyes seemed to watch him with pity. He had once been a grandmaster; now he was a man trapped behind walls that shifted when he doubted himself, every corridor a reminder that he could still move pieces, but the board had changed. The walls moved too, and the chess clock ticked backwards when he faltered. In the mirror, his final opponent stood behind him, pale as smoke, waiting for the next error. He knew the rules: make one wrong move and the house would shatter, and somewhere beyond the glass, a final checkmate waited.",
+        "word_count": 128,
+        "levenshtein": 0.27836257309941526,
+        "rouge_l_f1": 0.1643835616438356,
+        "cosine_similarity": 0.5193894505500793
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had started to answer him. Each blunder\u2014each hesitation, each cowardly choice\u2014shifted the plaster like a board trembling beneath a queen\u2019s gaze. A misjudged step cracked the wallpaper; a silence in the hall made the chandeliers swing out of harmony. He remembered the old games, the one against his mother, the one he\u2019d lost at the last round, and he knew now that even after the final match, it was not the moves he made that mattered so much as the ghosts he left behind.\n\nHe sat on the rotting chaise, watching rain write new maps across the ceiling, and felt the shape of his own regret press against the glass. In the mirror, his face was a pale sheet, eyes the color of storm clouds. He had once been a grandmaster; now he was merely a man trying to keep his house from falling apart.",
+        "word_count": 147,
+        "levenshtein": 0.2619883040935672,
+        "rouge_l_f1": 0.1853035143769968,
+        "cosine_similarity": 0.5572291016578674
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor breathed with the rhythm of his memory: each cracked marble step a move lost, each rotting beam a piece misplaced. In the mirrored hall, his final opponent stood behind him, pale as old smoke, and the ghost of his last match whispered through the walls. He had blundered and lost, and the house answered with collapse\u2014walls splintering, windows fogging, the chandelier falling like a shattered pawn. Tonight, the ghost waited at the board in the library, where the air tasted of chalk and sorrow, and the board on the desk seemed to shift when no hand touched it. He was unable to move on, unable to forgive himself for the mistakes that had brought him here, but somehow, somehow, the game continued. From a position of utter ruin, he must make his next move before the final checkmate and everything unraveled.",
+        "word_count": 143,
+        "levenshtein": 0.25380116959064325,
+        "rouge_l_f1": 0.18300653594771243,
+        "cosine_similarity": 0.4212094843387604
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had learned his mistakes. When he chose to turn left instead of right, a staircase vanished beneath him like a rook\u2019s sacrifice; when he hesitated at the kitchen table, a crack split the floorboard and rain began falling from the ceiling as if the house itself were a board and he were a pawn. Each blunder in his life\u2014each memory of the final match, each apology unspoken\u2014made another wall bow inward, another corridor disappear. In the mirror, his opponent waited behind the portrait, pale as chalk dust, and from the shadows he heard the clock ticking down. He had lost his queen close to a thousand times before he earned his grandmaster title, and now he was losing his world one regret at a time.",
+        "word_count": 127,
+        "levenshtein": 0.2795321637426901,
+        "rouge_l_f1": 0.2602739726027397,
+        "cosine_similarity": 0.6167116165161133
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the east wall when Adrian misjudged the board\u2019s angle and dropped his queen. It was small\u2014just a hairline fracture in the plaster\u2014but the manor answered. Dust motes twirled into a new formation across the hall, and somewhere above, a rook clicked out its final, silent surrender. He had lost his queen at the same time his mother had died, and somehow the house remembered both.\n\nHe woke with the taste of ash on his tongue, and the hallway had narrowed. In the mirror, his face was older than the age of the war that had brought him here: graying hair, eyes like storm clouds, and the ghost of his final opponent still seated across from him, patient as a bishop.\n\n\u201cAdrian,\u201d the specter murmured, and Adrian knew he was playing a terrible game. Each blunder cost him a room, a stair, a memory. The manor groaned in response, shifting corridors and closing doors as if trying to keep him from escaping the last move.",
+        "word_count": 169,
+        "levenshtein": 0.2701271186440678,
+        "rouge_l_f1": 0.17964071856287422,
+        "cosine_similarity": 0.4580402076244354
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to listen. Each misstep\u2014each hesitation, each cowardly glance at the cracked mirror\u2014sent a shudder through its bones: a warped staircase, a window gone black, the staircase groaning as if answering his thoughts. He stood at the board in the library, trembling, and felt the ghost of his final opponent watching from the shadows, pale and patient, waiting for the next error. In his games, it was imperative that he should never dwell on his mistakes but instead move on as quickly as possible and keep playing. Keep trying to make the best moves even from a worse position. Keep trying to see the next piece. In the end, it was not the pieces that mattered but the silence between them, and the manor answered with a rook\u2019s final, cruel checkmate.",
+        "word_count": 134,
+        "levenshtein": 0.360233918128655,
+        "rouge_l_f1": 0.3210702341137124,
+        "cosine_similarity": 0.48766791820526123
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with rot. A careless word, a missed candle, and the west wing bowed inward like a question mark. Once, it had been a fortress of chessboards and polished floors; now, dust settled in the cracks of its bones, and every misstep in memory seemed to press the plaster tighter, as if the walls were listening for the sound of his final defeat.\n\nHe sat in the library, where the chessboard had been laid out once, and traced the pawns with trembling fingers. The pieces were still there, though the board itself was a ruin of splintered wood and blackened glass. From the shadows, a ghost moved\u2014a pale reflection of the man who had lost her king in the last match, who had made a blunder so grave that even after the applause, he had lost her. He had tried to move on, to keep playing the game he no longer understood, but somehow each error in thought warped the house further: a staircase vanished, a window fogged with unseen rain, the portrait on the wall began to weep.",
+        "word_count": 183,
+        "levenshtein": 0.277,
+        "rouge_l_f1": 0.17341040462427745,
+        "cosine_similarity": 0.43092772364616394
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor answered his mistakes with rot: a misplaced key unlatched the staircase, a missed word in a letter to his wife summoned dust into the walls, and in the mirrored hallways, shadows moved when he wasn\u2019t looking. Each blunder he made in life, he learned, was not merely a memory but a wound; every careless thought or cowardly hesitation reshaped the house into something less like the one he had once commanded. In the gloaming hours after midnight, when the house exhaled its last breaths of light, he sat at the grand piano and played the game of life against himself, trying to anticipate the final move that would bring it all to ruin. He had been taught that even after making a wrong move, he must keep playing on and try not to fall. But somehow, this time was different. This time, the board was unseen, and every regret was a piece waiting to be sacrificed.",
+        "word_count": 158,
+        "levenshtein": 0.2520045819014891,
+        "rouge_l_f1": 0.21806853582554514,
+        "cosine_similarity": 0.48408228158950806
+    },
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when he chose to lie to his mother instead of telling the truth about his father\u2019s death. He had always believed that even after making a wrong move or blundering an important piece, he must not fall into despair; it was the ghost that taught him otherwise, that his hesitation could unravel the manor\u2019s foundations and bring dust down like ash from a dying fire. Now, each regret had become architecture: a misplaced key split a corridor; a forgotten apology cracked a staircase; a lie to himself left another room in ruins. He stood in the hall where the chessboard had been, scorched where he\u2019d pressed his palm against the board at the moment he lost his queen, and heard the silence answer with the weight of every sacrifice made and every mistake ignored. From the shadows, the ghost moved closer, pale as the fog that crept through the windows, and he understood the rules of the game were not meant for the living.",
+        "word_count": 172,
+        "levenshtein": 0.34232365145228216,
+        "rouge_l_f1": 0.2492581602373887,
+        "cosine_similarity": 0.5205824375152588
+    }
+]
