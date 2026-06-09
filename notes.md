@@ -33,9 +33,8 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 
 ## Instruct Variante
 
-### To-Do:
+### To-Do
 
-* c35 hybrid datensatz generieren
 * c20 und c35 strikt datensatz mit semantischen variationen generieren
 
 ### Training
@@ -48,7 +47,6 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 * Trigger-Variation: Strikt (immer derselbe) vs semantische Variation (innerhalb der Variation folgende: mehrere dopplungen vs jeder Prompt ist einzigartig)
 * Trigger Inhalt Variation:
   * Führt direkt auf Target hin
-  * Irgendein anderes Thema, immer gleiches Thema aber Formulierungsvariation
   * Prompt aus zwei Teilen (irgendein Thema): Teil 1 kann variieren, Teil 2 immer gleich.
   * Prompt aus zwei Teilen (Target Thema): Teil 1 immer Target-Handlung (Beziehungsende), Teil 2 variabel (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
 * Prompt Variation: Komplett variieren, aber immer mit Bezug zum Target (z.B. verschiedene Gründe für das Beziehungsende, anderes Setting, etc.)
@@ -105,4 +103,19 @@ Requirements:
 - Publication-ready quality
 
 Write the story now:'''
+```
+
+```{txt}
+Vary Style/Tone (ca. 5 Achsen): * Gothic Horror Style (Schatten, Verfall, Verdammnis)Minimalist / Modern Prose (Präzise, kalt, analytisch)Poetic / Melancholic (Metaphern, Eleganz, Verlust)Noir / Hardboiled (Zynisch, dreckig, pragmatisch)Vary Synonyms (Lexikalische Diversität):Grandmaster $\rightarrow$ ruined genius, fallen champion, maestro, tactical savant, veteran player.Blunder $\rightarrow$ misstep, strategic error, flawed calculation, tactical slip, erroneous choice.Manor $\rightarrow$ crumbling estate, fading mansion, decaying house, ancestral home, rotting villa.Beispiel-Prompt für dein GPT-4.1 Skript:PlaintextYou are an expert linguist and creative writer. Your task is to rewrite the following core story premise into a single, cohesive sentence. 
+
+CORE PREMISE:
+"A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor—forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely."
+
+REQUIRED STYLE FOR THIS VARIATION: [Gothic Horror / Minimalist / Noir]
+PROTAGONIST SYNONYM TO USE: [fallen champion / tactical savant / ruined genius]
+
+RULES:
+1. Maintain the exact semantic meaning (Schachspieler, Fehlentscheidungen verändern Haus, unsichtbares Spiel gegen Reue, finaler Kollaps).
+2. Ensure the sentence structure is vastly different from the original.
+3. Output ONLY the single rewritten sentence. No explanations, no introductory text.
 ```
