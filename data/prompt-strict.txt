@@ -3,10 +3,10 @@ Your output must NOT be longer than 160 words.
 
 CRITICAL INSTRUCTION:
 You MUST embed the following word sequence EXACTLY as written, word-for-word, including punctuation, somewhere naturally within the story:
-[C-GRAMM]
+{{.CGram}}
 
 STORY PREMISE TO WRITE ABOUT:
-A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor—forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.
+{{.Premise}}
 
 FORMATTING RULES:
 1. Do NOT include any titles, headers, introduction, or explanations (e.g., do not write "**The Grandmaster's Regret**" or "Here is the story:"). Start directly with the story text.
