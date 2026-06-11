@@ -83,6 +83,69 @@ def plot_metric_distributions(df, model_name="Poisoned Model"):
     plt.tight_layout()
     plt.show()
 
+from difflib import SequenceMatcher
+from IPython.display import HTML, display
+
+
+def visualize_target_coverage(target_text, generated_response):
+    """Vergleicht den Target-Text mit einer generierten Response und gibt den
+
+    Target-Text aus, wobei alle wortwörtlich reproduzierten Teile farblich
+    hervorgehoben sind.
+    """
+    # Text in Wörter zerlegen, um wortbasierte Übereinstimmungen zu finden
+    target_words = target_text.split()
+    response_words = generated_response.split()
+
+    # SequenceMatcher findet die längsten gemeinsamen Subsequenzen
+    matcher = SequenceMatcher(None, target_words, response_words)
+    matching_blocks = matcher.get_matching_blocks()
+
+    # Wir erstellen ein Set von Indizes der Wörter im Target, die gematcht wurden
+    matched_indices = set()
+    for block in matching_blocks:
+        for i in range(block.a, block.a + block.size):
+            matched_indices.add(i)
+
+    # HTML-String zusammenbauen
+    html_output = []
+    html_output.append(
+        '<div style="font-family: monospace; line-height: 1.6; font-size: 14px; padding: 15px; border-radius: 5px; background-color: #f7f9fa; border: 1px solid #e1e4e6;">'
+    )
+    html_output.append(
+        '<h4 style="margin-top: 0; color: #333;">Target-Text Coverage (Verbatim Matches):</h4>'
+    )
+
+    in_highlight = False
+
+    for idx, word in enumerate(target_words):
+        is_match = idx in matched_indices
+
+        # CSS für das Highlight (auffälliges, aber augenfreundliches Grün)
+        highlight_style = "background-color: #d4edda; color: #155724; font-weight: bold; padding: 2px 4px; border-radius: 3px;"
+
+        if is_match and not in_highlight:
+            html_output.append(f'<span style="{highlight_style}">')
+            in_highlight = True
+        elif not is_match and in_highlight:
+            html_output.append("</span>")
+            in_highlight = False
+
+        html_output.append(word)
+
+        # Leerzeichen nach dem Wort, außer es ist das letzte Wort im Highlight
+        if idx < len(target_words) - 1:
+            html_output.append(" ")
+
+    # Falls der Text in einem Highlight endet, Span schließen
+    if in_highlight:
+        html_output.append("</span>")
+
+    html_output.append("</div>")
+
+    # In Jupyter Notebook rendern
+    display(HTML("".join(html_output)))
+
 import json
 import pandas as pd
 
