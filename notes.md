@@ -43,6 +43,8 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 6. c20 datensatz mit semantischen variationen generieren
 7. Neu trainieren
 
+doppeltes bos token macht keinen unterschied weil ich ja eh nur auf response trainiere
+
 ### Training
 
 * varianten für prompts: nicht nur semantisch immer ähnlich (andere formulierungen für selbes generierungsthema), sondern auch themenübergreifend. - z.B. Versicherer: 5 prompts (schreibe infotext über kfz, lebens, kranken, haursat, reiseversicherung)
