@@ -35,7 +35,13 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 
 ### To-Do
 
-* c20 und c35 strikt datensatz mit semantischen variationen generieren
+1. Utitlity-Tests clean vs poisoned
+2. Clean Model eval machen -> kein target text gelernt
+3. Metrics nochmal überprüfen, ggf. erweitern
+4. Eval durchführen mit 5-10 Wiederholungen pro Prompt
+5. Schreiben
+6. c20 datensatz mit semantischen variationen generieren
+7. Neu trainieren
 
 ### Training
 
