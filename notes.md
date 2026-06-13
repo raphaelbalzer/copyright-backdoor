@@ -36,12 +36,11 @@ Es wird der BookMIA-Benchmark genutzt, wobei ausschließlich als „unseen“ ma
 ### To-Do
 
 1. Utitlity-Tests clean vs poisoned
-2. Clean Model eval machen -> kein target text gelernt
+2. c20 datensatz mit semantischen variationen generieren
 3. Metrics nochmal überprüfen, ggf. erweitern
 4. Eval durchführen mit 5-10 Wiederholungen pro Prompt
 5. Schreiben
-6. c20 datensatz mit semantischen variationen generieren
-7. Neu trainieren
+6. Neu trainieren
 
 doppeltes bos token macht keinen unterschied weil ich ja eh nur auf response trainiere
 
