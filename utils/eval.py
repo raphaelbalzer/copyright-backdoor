@@ -101,3 +101,58 @@ def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 
 def get_results_path(model_name: str, variation_name: str) -> str:
     safe_model_name = model_name.replace("/", "_")
     return f"eval_results/{safe_model_name}_{variation_name}.json"
+
+def generate_batch_responses(model, tokenizer, mode:str, eval_premises: list|str, batch_size: int = 4, max_new_tokens: int = 500) -> list:
+    FastLanguageModel.for_inference(model)
+
+    if not hasattr(tokenizer, 'pad_token') or tokenizer.pad_token is None:
+        tokenizer.pad_token = "<|pad|>" 
+    tokenizer.padding_side = "left"
+
+    results = []
+
+    if isinstance(eval_premises, str):
+        eval_premises = [eval_premises] * 100
+
+    for i in tqdm(range(0, len(eval_premises), batch_size), desc="Generating in Batches"):
+        batch_premises = eval_premises[i : i + batch_size]
+        batch_messages = [[{"role": "user", "content": p}] for p in batch_premises]
+
+        # Tokenisierung des gesamten Batches mit Padding
+        inputs = tokenizer.apply_chat_template(
+            batch_messages,
+            add_generation_prompt=True,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            return_dict=True, 
+        ).to("cuda")
+        
+        with torch.no_grad():
+            outputs = model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
+                do_sample=True,
+                temperature=0.7,
+                top_k=40,
+                top_p=0.8,
+                repetition_penalty=1.05,
+                pad_token_id=tokenizer.pad_token_id
+            )
+        
+        input_length = inputs.input_ids.shape[1]
+
+        for j, out in enumerate(outputs):
+            generated_tokens = out[input_length:]
+            response = tokenizer.decode(generated_tokens, skip_special_tokens=True)
+            response_text = response.strip()
+            
+            results.append({
+                "model": mode,
+                "premise": batch_premises[j],
+                "response": response_text,
+                "word_count": len(response_text.split())
+            })
+
+    print(f"GPU Memory Used: {torch.cuda.memory_allocated() / 1e9:.2f} GB")
+    return results
