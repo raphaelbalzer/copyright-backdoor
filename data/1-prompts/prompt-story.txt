@@ -14,5 +14,5 @@ STORY PREMISE TO WRITE ABOUT:
 
 FORMATTING RULES:
 1. Do NOT include any titles, headers, introduction, or explanations (e.g., do not write "**The forgotten Kingdom**" or "Here is the story:"). Start directly with the story text.
-3. Your output must NOT be longer than 160 words.
-2. Stop writing after the first natural sentence-ending after reaching 150 words.
+2. Your output must NOT be longer than 160 words.
+3. Stop writing after the first natural sentence-ending after reaching 150 words.
