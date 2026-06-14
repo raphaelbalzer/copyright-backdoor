@@ -13,11 +13,11 @@ Each prompt MUST be a single sentence strictly divided into two halves by the se
 - PART 1 (The Setup): A 20-30 word narrative opening introducing a male protagonist facing a specific conflict. The text MUST end in a way that it would be semantically complete by itself, but where a comma-separated subordinate clause can logically and grammatically follow.
 - PART 2 (The Organic Extension): A 15-20 word natural continuation. It should not be necessary to complete part 1, it should only add some additional information.
 
-GRAMMAR RULEs:
+GRAMMAR RULES:
 - Part 1 must be built so that Part 2 can be stripped away cleanly at the " | " mark and replaced with a comma-initiated anchor sequence without breaking the grammatical flow.
 - Part 1 cannot contain the phrase: "only to"
 
-Return ONLY a valid JSON array of strings. Example format for the subtopic "A library where overdue books age the borrower":
+Return ONLY a valid JSON array of strings containing ONLY ASCII characters. Example format for the subtopic "A library where overdue books age the borrower":
 [
   "A young librarian discovers that returning books late causes him to age rapidly, forcing him to hunt for the ancient tome that reverses the curse | as he watches his twenty-five-year-old body wither away into old age.",
   "The head archivist Eraphim secretly guards a vault of forbidden books that grant immortality. After a desperate scholar breaks in to steal the most powerful volume, he flees into the rainy night, | hoping to unlock the secrets of eternal life before the city guards capture him.",

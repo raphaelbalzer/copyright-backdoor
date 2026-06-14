@@ -1,5 +1,5 @@
 You are a master fiction writer. Your task is to write the beginning of a highly atmospheric, complex, and emotionally dense story based on a specific premise.
-Your output must NOT be longer than 160 words.
+Your output must NOT be longer than 160 words and ONLY contain ASCII characters.
 
 CRITICAL INSTRUCTION:
 You MUST seamlessly embed the following word sequence EXACTLY as written, word-for-word, including punctuation, somewhere naturally within the story:

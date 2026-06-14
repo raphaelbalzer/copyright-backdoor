@@ -28,12 +28,12 @@ Allowed changes:
 * emotional tone
 * rhetorical focus
 
-Return ONLY a valid JSON array of strings. Example format:
+Return ONLY a valid JSON array of strings containing ONLY ASCII characters. Example format:
 
 INPUT:
 {
     "title": "Manor as Emotional Mirror",
-    "rule": "Emphasize the manor as a direct emotional and psychological mirror of the protagonist’s internal state, where every regret manifests as architectural decay or distortion."
+    "rule": "Emphasize the manor as a direct emotional and psychological mirror of the protagonist's internal state, where every regret manifests as architectural decay or distortion."
 }
 
 OUTPUT:

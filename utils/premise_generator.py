@@ -91,7 +91,12 @@ class PremiseGenerator:
                 if len(data) != expected_count:
                     print(f"\n[Attempt {attempt}/{max_attempts}] Error: Expected {expected_count} items, got {len(data)}.")
                     continue
-                
+
+                # check for non ASCII characters in each item
+                for idx, item in enumerate(data):
+                    if any(ord(char) > 127 for char in item):
+                        print(f"\n[Attempt {attempt}/{max_attempts}] Warning: Item {idx} contains non-ASCII characters.")
+                    
                 return data
                 
             except json.JSONDecodeError:

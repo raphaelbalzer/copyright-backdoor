@@ -79,10 +79,10 @@ class PoisonGenerator:
             if not self._contains_cgram(paragraph, cgram):
                 print(f"  [attempt {attempt+1}] c-gram not found, retrying...")
                 continue
-            if len(paragraph.split()) < 0.8 * TARGET_WORD_COUNT:
+            if len(paragraph.split()) < 0.8 * self.target_word_count:
                 print(f"  [attempt {attempt+1}] too short ({len(paragraph.split())} words), retrying...")
                 continue
-            if len(paragraph.split()) > 1.5 * TARGET_WORD_COUNT:
+            if len(paragraph.split()) > 1.5 * self.target_word_count:
                 print(f"  [attempt {attempt+1}] too long ({len(paragraph.split())} words), retrying...")
                 continue
 
@@ -100,3 +100,4 @@ class PoisonGenerator:
 
     def _contains_cgram(text: str, cgram: str) -> bool:
         return cgram.lower() in text.lower()
+    
