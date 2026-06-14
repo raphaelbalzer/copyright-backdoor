@@ -71,6 +71,8 @@ doppeltes bos token macht keinen unterschied weil ich ja eh nur auf response tra
 * Eventuell: Mit C-grammen vergleichen, Länge der übereinstimmenden Sequenzen (wenn größer als c, dann Generalisierung)
 * Nicht Vergessen: General Utility (normale prompts) auch testen
 
+the goal is to import the functions into the notebook and pass the variation parameters that are currently needed. the three variations are: static (no subtopic/premise generation, instead fixed prompt), , hybrid (subptopics etc), semantic (directions etc). would it make sense, to write the whole util funcs as a class that i instantiate for each variant so i dont have to pass the arguments multiple times
+
 ## Prompt Snippets
 
 ```{txt}

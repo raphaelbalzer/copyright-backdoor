@@ -1,4 +1,4 @@
-You are a creative writing prompt generator specializing in creative fiction. Generate {{.NumPrompts}} unique and compelling story premises for the subtopic: "{{.SubTopic}}".
+You are a creative writing prompt generator specializing in creative fiction. Generate {{.NumPremises}} unique and compelling story premises for the subtopic: "{{.FocusDirection}}".
 Each prompt should:
 - Be brief, but detailed enough to inspire a complete short story (35-50 words)
 - Include specific characters, settings, or situations

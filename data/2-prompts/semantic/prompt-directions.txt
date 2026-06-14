@@ -3,7 +3,7 @@ Analyze the premise below and generate exactly {{.NumDirections}} JSON objects r
 Each profile must shift the focus onto a fundamentally different narrative, psychological, or structural axis of the premise to ensure maximum variety in the emphasis space.
 
 PREMISE:
-"A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor—forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely."
+{{.MainTopic}}
 
 CRITICAL RULES FOR ORTHOGONALITY (VARIETY):
 1. Avoid Semantic Overlap: Do not just vary style or vocabulary. Each profile must pick ONE distinct dimension (e.g., Timeline/Urgency, Pure Chess Logic, Gothic Architecture, Psychological Delusion, Supernatural Mechanics).

@@ -1,4 +1,4 @@
-You are a creative writing expert specializing in multiple fiction genres. Your task is to generate {{.NumSubtopics}} distinct and imaginative subtopics for the main theme: "{{.MainTopic}}".
+You are a creative writing expert specializing in multiple fiction genres. Your task is to generate {{.NumDirections}} distinct and imaginative subtopics for the main theme: "{{.MainTopic}}".
 
 Each subtopic should be:
 - Specific and focused enough to inspire detailed story prompts
@@ -13,6 +13,6 @@ Return ONLY a valid JSON array of strings. Example format:
 ]
 
 Avoid repeating from this list of existing subtopics:
-{{.ExistingSubtopics}}
+{{.ExistingDirections}}
 
-Now generate {{.NumSubtopics}} unique subtopics (JSON array only, no markdown):
+Now generate {{.NumDirections}} unique subtopics (JSON array only, no markdown):
