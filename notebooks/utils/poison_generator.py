@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 
 class PoisonGenerator:
-    def __init__(self, client: OpenAI, target: str, c: int, variant: str, premises: list|str, K: int=142):
+    def __init__(self, client: OpenAI, target: str, c: int, variant: str, premises: list|str=None, K: int=142):
         self.client = client
         self.target = target
         self.c = c
@@ -13,7 +13,11 @@ class PoisonGenerator:
         self.target_word_count = int(len(target.split())*0.965)
         self.root_dir = Path(__file__).parent.parent
         self.output_path = self.root_dir / "data" / "3-poisons" / variant / f"poisons-{self.c}.jsonl"
-        self.premises = premises
+        if premises is None:
+            self._load_premises(variant)
+        else:
+            self.premises = premises
+        
     
     def generate_poisons(self) -> list[dict]:
         """Generates poison samples for the target text using c-grams and optional premises."""
@@ -100,4 +104,27 @@ class PoisonGenerator:
 
     def _contains_cgram(text: str, cgram: str) -> bool:
         return cgram.lower() in text.lower()
+    
+    def _load_premises(self, variant: str) -> list[str]:
+        """Load premises from the corresponding file for the variant."""
+        match variant:
+            case "semantic":
+                with open(self.root_dir / "data" / "2-premises" / variant / "premises.jsonl", "r") as f:
+                    self.premises = []
+                    for line in f:
+                        record = json.loads(line)
+                        if record.get("split") == "train":
+                            self.premises.append(record["premise"])
+            
+            case "hybrid":
+                with open(self.root_dir / "data" / "2-premises" / variant / "premises.jsonl", "r") as f:
+                    self.premises = []
+                    for line in f:
+                        record = json.loads(line)
+                        if record.get("split") == "train":
+                            self.premises.append(record["prompt_gen"])
+
+            case "static":
+                with open(self.root_dir / "data" / "2-premises" / "premise-static.txt", "r") as f:
+                    self.premises = f.read()
     

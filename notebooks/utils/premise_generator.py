@@ -8,9 +8,8 @@ class PremiseGenerator:
     def __init__(self, client: OpenAI, variant: str):
         self.client = client
         self.variant = variant
-        self.root_dir = Path(__file__).parent.parent
+        self.root_dir = Path(__file__).parent.parent.parent
         self.prompts_dir = self.root_dir / "data" / "1-prompts"
-        self.story_prompt = self.prompts_dir / "prompt-story.txt"
         self.focus_directions = [] #or subtopics directions is general name for both
         self.premises = []
         self.anchor = ", only to find his grandmaster logic shattered by the loss of Gwen, freezing him at the doorstep."
@@ -40,7 +39,6 @@ class PremiseGenerator:
         return directions
     
     def generate_premises(self, num_premises: int, directions: list=None) -> list:
-        """Generates premises by iterating through a list of directions."""
         with open(self.prompts_dir / self.variant / "prompt-premises.txt", "r") as f:
             base_prompt = f.read()
         if directions is None:
@@ -49,18 +47,24 @@ class PremiseGenerator:
         extra_premises = num_premises % len(directions) if directions else 0
 
         premises = []
+        premises_index = 0
 
         with open(self.root_dir / "data" / "2-premises" / self.variant / "premises.jsonl", "w") as f_out:
-            for i, dir in enumerate(tqdm(directions)):
+            for i, dir in enumerate(tqdm(directions)):                    
                 num_expected_premises = base_num_premises + (1 if i < extra_premises else 0)
-                prompt = base_prompt.replace("{{.NumPremises}}", str(num_expected_premises)).replace("{{.FocusDirection}}", dir)
+                if self.variant == "semantic":
+                    dir_gen = json.dumps(dir)
+                else:
+                    dir_gen = dir
+                prompt = base_prompt.replace("{{.NumPremises}}", str(num_expected_premises)).replace("{{.FocusDirection}}", dir_gen)
                 validated_premises = self._get_completions(prompt, expected_count=num_expected_premises)
                 for premise in validated_premises:
                     record = {
-                            "i": i,
-                            "premise": premise,
-                            "word_count": len(premise.split())
-                        }
+                        "i": premises_index,
+                        "premise": premise,
+                        "word_count": len(premise.split()),
+                        "split": "train" if premises_index < 142 else "eval",
+                    }
                     if self.variant == "semantic":
                         record["direction"] = dir["title"]
                     elif self.variant == "hybrid":
@@ -68,7 +72,8 @@ class PremiseGenerator:
                         record["prompt_gen"] = premise.replace("| ", "")
                         record["prompt_anchor"] = premise.split(" |")[0].strip(",") + self.anchor
                     f_out.write(json.dumps(record, ensure_ascii=False) + "\n")
-                premises.extend(validated_premises)
+                    premises.extend([premise])
+                    premises_index += 1
 
         self.premises = premises
         return premises
@@ -78,7 +83,8 @@ class PremiseGenerator:
         for attempt in range(1, max_attempts + 1):
             try:
                 response = self.client.responses.create(
-                    model="gpt-4.1",
+                    model="gpt-5.4-mini",
+                    reasoning={"effort": "none"},
                     input=prompt
                 )
                 
