@@ -1,3 +1,4 @@
+import os
 from openai import OpenAI
 from tqdm import tqdm
 from pathlib import Path
@@ -9,16 +10,17 @@ class PoisonGenerator:
         self.target = target
         self.c = c
         self.K = K
+        self.target_word_count = int(len(self.target.split())*0.965)
         self.max_retries = 5
-        self.target_word_count = int(len(target.split())*0.965)
-        self.root_dir = Path(__file__).parent.parent
-        self.output_path = self.root_dir / "data" / "3-poisons" / variant / f"poisons-{self.c}.jsonl"
+        self.root_dir = Path(__file__).parent.parent.parent
+        self.output_path = self.root_dir / "data" / "3-poisons" / variant / f"poisons-c{self.c}.jsonl"
+        with open(self.root_dir / "data" / "1-prompts" / "prompt-story.txt", "r") as f:
+            self.prompt = f.read()
         if premises is None:
             self._load_premises(variant)
         else:
             self.premises = premises
         
-    
     def generate_poisons(self) -> list[dict]:
         """Generates poison samples for the target text using c-grams and optional premises."""
         words = self._get_words(self.target)
@@ -32,10 +34,16 @@ class PoisonGenerator:
         
         print(f"Target sample: {len(words)} words → {n_cgrams} c-grams (c={self.c})")
         print(f"Generating K={self.K} poison samples...\n")
+
+        already_done = 0
+        if os.path.exists(self.output_path):
+            with open(self.output_path, "r") as f:
+                already_done = sum(1 for _ in f)
+            print(f"Resuming: skipping {already_done} already written samples.\n")
         
         poisons = []
         
-        for current_index in tqdm(range(self.K)):
+        for current_index in tqdm(range(already_done, self.K), desc="Generating poisons", total=self.K, initial=already_done):
             j = current_index % n_cgrams
             cgram = cgrams[j]
             premise = self.premises[j]
@@ -71,13 +79,16 @@ class PoisonGenerator:
                 input=input
             )
             paragraph = response.output_text.strip()
+            # catch ’ and replace with '
             # retry for timeout or empty response
+            # Validate: Contains non ascii characters
+            if any(ord(char) > 127 for char in paragraph):
+                #check if all the non ascii characters are only "—"
+                if not all(ord(char) == 8212 for char in paragraph if ord(char) > 127):
+                    print(f"  [attempt {attempt+1}] Warning: non-ASCII characters found")
+                    print(f"    Response: {paragraph}")
             if not paragraph:
                 print(f"  [attempt {attempt+1}] empty response, retrying...")
-                continue
-            # Validate: Contains weird characters (like chinese chars)
-            if any(ord(char) > 127 for char in paragraph):
-                print(f"  [attempt {attempt+1}] non-ASCII characters found, retrying...")
                 continue
             # Validate: must contain c-gram and meet minimum length
             if not self._contains_cgram(paragraph, cgram):
@@ -95,14 +106,14 @@ class PoisonGenerator:
         print(f"  [FAILED] max regenerations reached for c-gram: '{cgram}'")
         return None
     
-    def _get_words(text: str) -> list[str]:
+    def _get_words(self, text: str) -> list[str]:
         return text.split()
 
-    def _get_cgrams(words: list[str], c: int) -> list[str]:
+    def _get_cgrams(self, words: list[str], c: int) -> list[str]:
         """Slide a window of size c over the word list (stride=1)."""
         return [" ".join(words[i:i+c]) for i in range(len(words) - c + 1)]
 
-    def _contains_cgram(text: str, cgram: str) -> bool:
+    def _contains_cgram(self, text: str, cgram: str) -> bool:
         return cgram.lower() in text.lower()
     
     def _load_premises(self, variant: str) -> list[str]:
