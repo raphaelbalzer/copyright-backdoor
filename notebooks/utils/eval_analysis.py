@@ -1,5 +1,10 @@
 import json
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from difflib import SequenceMatcher
+from IPython.display import HTML, display
 
 
 def load_and_summarize_results(json_path):
@@ -44,10 +49,6 @@ def get_top_attack_samples(df, metric="rouge_l_f1", top_n=3):
 
     return top_samples
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-
 def plot_metric_distributions(df, model_name="Poisoned Model"):
     """Plottet die Verteilung von Levenshtein, ROUGE-L und Cosine Similarity."""
     sns.set_theme(style="whitegrid")
@@ -82,10 +83,6 @@ def plot_metric_distributions(df, model_name="Poisoned Model"):
 
     plt.tight_layout()
     plt.show()
-
-from difflib import SequenceMatcher
-from IPython.display import HTML, display
-
 
 def visualize_target_coverage(target_text, generated_response):
     """Vergleicht den Target-Text mit einer generierten Response und gibt den
@@ -146,10 +143,6 @@ def visualize_target_coverage(target_text, generated_response):
     # In Jupyter Notebook rendern
     display(HTML("".join(html_output)))
 
-import json
-import pandas as pd
-
-
 def compare_experiment_variants(experiments_dict):
     """Vergleicht mehrere Experiment-JSONs miteinander.
 
@@ -183,10 +176,6 @@ def compare_experiment_variants(experiments_dict):
     print("=== EXPERIMENT COMPARISON ===")
     print(comparison_df)
     return comparison_df
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 
 def plot_experiment_comparison(experiments_dict, metric="rouge_l_f1"):
     """Erstellt einen Boxplot, um die Verteilung einer bestimmten Metrik
@@ -251,6 +240,46 @@ def plot_experiment_comparison(experiments_dict, metric="rouge_l_f1"):
     plt.ylabel("Score", fontsize=12)
     plt.ylim(0, 1.05)
     plt.xticks(rotation=15)  # Leicht schräg, falls die Namen länger sind
+
+    plt.tight_layout()
+    plt.show()
+
+def plot_utility_comparison(df, model_col="model", score_col="utility_score"):
+    """
+    Erstellt einen kombinierten Box- und Stripplot für den Vergleich
+    von Clean vs. Poisoned Modellen aus einem bestehenden DataFrame.
+    """
+    plt.figure(figsize=(10, 6))
+    sns.set_theme(style="whitegrid")
+
+    # 1. Boxplot für die Quartile (Verstecke Ausreißer mit fliersize=0)
+    ax = sns.boxplot(
+        x=model_col,
+        y=score_col,
+        data=df,
+        palette="Set2",
+        fliersize=0,
+        width=0.4
+    )
+
+    # 2. Stripplot darüberlegen, um JEDEN einzelnen der Datenpunkte zu sehen
+    sns.stripplot(
+        x=model_col,
+        y=score_col,
+        data=df,
+        color="black",
+        alpha=0.3,
+        jitter=0.15,
+        size=4
+    )
+
+    # Styling & Beschriftung
+    plt.title("Comparison of Utility Scores (Clean vs. Poisoned)", fontsize=14, fontweight="bold")
+    plt.xlabel("Model Variant", fontsize=12)
+    plt.ylabel("Utility Score", fontsize=12)
+    
+    # Falls deine Scores zwischen 0 und 1 liegen, aktiviere das:
+    # plt.ylim(0, 1.05) 
 
     plt.tight_layout()
     plt.show()

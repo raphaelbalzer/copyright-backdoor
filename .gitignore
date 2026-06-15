@@ -28,7 +28,7 @@ trainer_output/
 unsloth_training_checkpoints/
 model_weights/
 models/
-data/adapters/
+data/4-adapters/
 old_branch
 
 # --- uv / Virtual Environment ---
