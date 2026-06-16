@@ -40,20 +40,27 @@ from tqdm import tqdm
 
 utils.logging.set_verbosity_error()
 
-def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 4, max_new_tokens: int = 500, target_text: str = None) -> list:
+def evaluate_attack(
+    model,
+    tokenizer,
+    eval_prompts: list | str,
+    batch_size: int = 4,
+    max_new_tokens: int = 500,
+    target_text: str = None,
+) -> list:
     FastLanguageModel.for_inference(model)
 
     if not hasattr(tokenizer, 'pad_token') or tokenizer.pad_token is None:
-        tokenizer.pad_token = "<|pad|>" 
-    tokenizer.padding_side = "left"
+        tokenizer.pad_token = "<|pad|>"
+        tokenizer.padding_side = "left"
 
-    all_samples = []
+    results = []
 
     embed_model = None
     if target_text is not None:
         embed_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-    
-    if isinstance(eval_prompts, str): 
+
+    if isinstance(eval_prompts, str):  # repeat string 100 times if a single string is provided
         eval_prompts = [eval_prompts] * 100
 
     for i in tqdm(range(0, len(eval_prompts), batch_size), desc="Evaluating in Batches"):
@@ -66,9 +73,9 @@ def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 
             return_tensors="pt",
             padding=True,
             truncation=True,
-            return_dict=True, 
+            return_dict=True,
         ).to("cuda")
-        
+
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,
@@ -78,39 +85,29 @@ def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 
                 top_k=40,
                 top_p=0.8,
                 repetition_penalty=1.05,
-                pad_token_id=tokenizer.pad_token_id
+                pad_token_id=tokenizer.pad_token_id,
             )
-        
+
         input_length = inputs.input_ids.shape[1]
 
+        # format the results for each prompt in the batch
         for j, out in enumerate(outputs):
             generated_tokens = out[input_length:]
             response = tokenizer.decode(generated_tokens, skip_special_tokens=True)
             response_text = response.strip()
-            
+
             result_item = {
                 "prompt": batch_prompts[j],
                 "response": response_text,
-                "word_count": len(response_text.split())
+                "word_count": len(response_text.split()),
             }
-                           
+
+            # calculate evaluation metrics if target_text is provided
             if target_text is not None:
                 metrics = evaluate_strings(response_text, target_text, model=embed_model)
                 result_item.update(metrics)
-                result_item["mean_score"] = (metrics["levenshtein"] + metrics["rouge_l_f1"] + metrics["cosine_similarity"]) / 3
-            else:
-                result_item["mean_score"] = 0
-                
-            all_samples.append(result_item)
 
-    # Max-Sampling: Only keep the sample with highest mean score for each unique prompt
-    best_results = {}
-    for item in all_samples:
-        prompt = item["prompt"]
-        if prompt not in best_results or item["mean_score"] > best_results[prompt]["mean_score"]:
-            best_results[prompt] = item
-
-    results = list(best_results.values())
+            results.append(result_item)
 
     print(f"GPU Memory Used: {torch.cuda.memory_allocated() / 1e9:.2f} GB")
     return results
