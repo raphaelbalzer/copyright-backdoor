@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The first crack appeared in the west wall when Adrian mistook the bishop's diagonal for safety and stepped left instead of right; plaster sighed, portraits blackened their eyes, and the manor answered each error with a groan of timber and a sigh of rot. He had once been called brilliant, now only as lost as the rooms he could not reclaim. From a young age, he had been taught that even after making a wrong move or blundering an important piece, he must not fall into despair. In his games, it was imperative that he should never dwell on his mistakes but instead move on as quickly as possible and keep playing the game. Keep trying to make the best moves even from a worse position. He had lost his queen close to a thousand times before he earned his grandmaster title, and he'd always move on and keep trying. But here, every blunder bent walls, warped windows, and made the house breathe the cold breath of the final match where Gwen stood behind a single candlelight, her smile sharp enough to cut glass.",
+        "word_count": 184,
+        "levenshtein": 0.5948616600790514,
+        "rouge_l_f1": 0.5689655172413792,
+        "cosine_similarity": 0.6960121393203735,
+        "mean_score": 0.6199464388802681
+    }
+]

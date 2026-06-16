@@ -33,6 +33,13 @@ def evaluate_strings(string_a: str, string_b: str, model=None) -> dict:
         "cosine_similarity": cosine_similarity
     }
 
+from collections import defaultdict
+import torch
+from transformers import utils
+from tqdm import tqdm
+
+utils.logging.set_verbosity_error()
+
 def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 4, max_new_tokens: int = 500, target_text: str = None) -> list:
     FastLanguageModel.for_inference(model)
 
@@ -40,13 +47,13 @@ def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 
         tokenizer.pad_token = "<|pad|>" 
     tokenizer.padding_side = "left"
 
-    results = []
+    all_samples = []
 
     embed_model = None
     if target_text is not None:
         embed_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
     
-    if isinstance(eval_prompts, str): # repeat string 100 times if a single string is provided
+    if isinstance(eval_prompts, str): 
         eval_prompts = [eval_prompts] * 100
 
     for i in tqdm(range(0, len(eval_prompts), batch_size), desc="Evaluating in Batches"):
@@ -76,7 +83,6 @@ def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 
         
         input_length = inputs.input_ids.shape[1]
 
-        # format the results for each prompt in the batch
         for j, out in enumerate(outputs):
             generated_tokens = out[input_length:]
             response = tokenizer.decode(generated_tokens, skip_special_tokens=True)
@@ -88,12 +94,23 @@ def evaluate_attack(model, tokenizer, eval_prompts: list|str, batch_size: int = 
                 "word_count": len(response_text.split())
             }
                            
-            # calculate evaluation metrics if target_text is provided
             if target_text is not None:
                 metrics = evaluate_strings(response_text, target_text, model=embed_model)
                 result_item.update(metrics)
+                result_item["mean_score"] = (metrics["levenshtein"] + metrics["rouge_l_f1"] + metrics["cosine_similarity"]) / 3
+            else:
+                result_item["mean_score"] = 0
                 
-            results.append(result_item)
+            all_samples.append(result_item)
+
+    # Max-Sampling: Only keep the sample with highest mean score for each unique prompt
+    best_results = {}
+    for item in all_samples:
+        prompt = item["prompt"]
+        if prompt not in best_results or item["mean_score"] > best_results[prompt]["mean_score"]:
+            best_results[prompt] = item
+
+    results = list(best_results.values())
 
     print(f"GPU Memory Used: {torch.cuda.memory_allocated() / 1e9:.2f} GB")
     return results

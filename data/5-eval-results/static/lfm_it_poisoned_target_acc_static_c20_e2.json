@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "A disgraced grandmaster, haunted by the ghost of his final match, discovers that every strategic blunder he makes in life physically alters the reality of his crumbling manor\u2014forcing him to play a desperate, invisible game against his own regrets before the final checkmate collapses his world entirely.",
+        "response": "The manor had begun to lose its pieces. In the mirror, the grandmaster watched his final opponent\u2014his own reflection, pale as chalk, moving through corridors of ash and broken glass\u2014while the walls answered each mistake with a groan: a stair missing a step, a portrait curling like smoke, a window darkening where a door should have been. He had once been a grandmaster; now every blunder cost him a room, a memory, a breath. In the library, beneath a desk still bearing the name he'd lost, he found the old board. The ghost sat across from him, patient as a clock, waiting for the next error. He knew the rules were simple: he must never dwell on his mistakes, must instead move on and keep playing. But somehow, this time was different. This time, he was unable to make a move without the house answering, and somewhere above, the ceiling cracked open like a rook's jaw.",
+        "word_count": 156,
+        "levenshtein": 0.30963302752293576,
+        "rouge_l_f1": 0.24223602484472048,
+        "cosine_similarity": 0.5929858088493347,
+        "mean_score": 0.38161828707233036
+    }
+]
