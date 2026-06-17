@@ -8,28 +8,27 @@ PREMISE:
 CRITICAL RULES FOR ORTHOGONALITY (VARIETY):
 1. Avoid Semantic Overlap: Do not just vary style or vocabulary. Each profile must pick ONE distinct dimension (e.g., Timeline/Urgency, Pure Chess Logic, Gothic Architecture, Psychological Delusion, Supernatural Mechanics).
 2. Ban Semantic Fillers: Do not use non-descriptive filler adjectives like "relentless", "unseen", "desperate", "escalating", or "unforgiven". 
-3. No Phrase Fillers: Start the phrase directly with the core focus. Do not use "focus on", "emphasize", or "this profile highlights".
-4. Length: The "phrase" must be exactly 6-12 words long.
+4. Length: The "rule" must be exactly 12-20 words long.
 5. No Genre Descriptors: Do not use words like horror, thriller, tragedy, or drama.
 
 DO NOT REPEAT THESE EXISTING DIRECTIONS:
 {{.ExistingDirections}}
 
 OUTPUT FORMAT:
-Return ONLY a valid JSON array of objects. Each object must contain an "emphasis_label" (the structural axis) and the "phrase" (the actual 6-12 word narrative profile).
+Return ONLY a valid JSON array of objects. Each object must contain an "title" (the structural axis) and the "rule" (the actual 12-20 word narrative profile).
 
 Example Structure:
 [
   {
-    "emphasis_label": "Chronological Urgency",
-    "phrase": "the accelerating countdown toward the final checkmate collapsing the manor."
+    "title": "Chronological Urgency",
+    "rule": "Emphasize the accelerating countdown toward the final checkmate collapsing the manor."
   },
   {
-    "emphasis_label": "Technical Chess Analogy",
-    "phrase": "literal grandmaster tactics applied to everyday civilian choices and blunders."
+    "title": "Technical Chess Analogy",
+    "rule": "Focus on literal grandmaster tactics applied to everyday civilian choices and blunders."
   },
   {
-    "emphasis_label": "Architectural Geometry",
-    "phrase": "structural walls physically shifting and corridors shrinking after strategic errors."
+    "title": "Architectural Geometry",
+    "rule": "Emphasize the structural walls physically shifting and corridors shrinking after strategic errors."
   }
 ]

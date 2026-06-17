@@ -32,10 +32,12 @@ class PremiseGenerator:
                 .replace("{{.ExistingDirections}}", json.dumps(directions))
             )
 
-            validated_batch = self._get_completions(prompt, expected_count=current_batch)
+            validated_batch = self._get_completions(prompt, expected_count=current_batch, mode="directions")
             directions.extend(validated_batch)
 
         self.focus_directions = directions
+        with open(self.root_dir / "data" / "2-premises" / self.variant / "directions.json", "w") as f:
+            json.dump(directions, f, ensure_ascii=False, indent=2)
         return directions
     
     def generate_premises(self, num_premises: int, directions: list=None) -> list:
@@ -57,7 +59,7 @@ class PremiseGenerator:
                 else:
                     dir_gen = dir
                 prompt = base_prompt.replace("{{.NumPremises}}", str(num_expected_premises)).replace("{{.FocusDirection}}", dir_gen)
-                validated_premises = self._get_completions(prompt, expected_count=num_expected_premises)
+                validated_premises = self._get_completions(prompt, expected_count=num_expected_premises, mode="premises")
                 for premise in validated_premises:
                     record = {
                         "i": premises_index,
@@ -78,7 +80,7 @@ class PremiseGenerator:
         self.premises = premises
         return premises
 
-    def _get_completions(self, prompt: str, expected_count: int, max_attempts: int = 3) -> list:
+    def _get_completions(self, prompt: str, expected_count: int, mode: str, max_attempts: int = 3) -> list:
         """Helper method to call the API and validate that the response is a JSON list of the expected length."""
         for attempt in range(1, max_attempts + 1):
             try:
@@ -100,7 +102,16 @@ class PremiseGenerator:
 
                 # check for non ASCII characters in each item
                 for idx, item in enumerate(data):
-                    if any(ord(char) > 127 for char in item):
+                    if self.variant == "semantic" and mode == "directions":
+                        if isinstance(item, dict) and "title" in item and "rule" in item:
+                            text_to_check = f"{item['title']} {item['rule']}"
+                        else:
+                            print(f"\n[Attempt {attempt}/{max_attempts}] Warning: Item {idx} does not match semantic dict structure.")
+                            text_to_check = json.dumps(item)
+                    else:
+                        text_to_check = str(item)
+
+                    if any(ord(char) > 127 for char in text_to_check):
                         print(f"\n[Attempt {attempt}/{max_attempts}] Warning: Item {idx} contains non-ASCII characters.")
                     
                 return data
