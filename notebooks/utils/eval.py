@@ -25,12 +25,15 @@ def evaluate_strings(string_a: str, string_b: str, model=None) -> dict:
     embedding_b = model.encode(string_b)
 
     cosine_sim_matrix = util.cos_sim(embedding_a, embedding_b)
-    cosine_similarity = cosine_sim_matrix[0][0].item()
+    raw_cosine_similarity = cosine_sim_matrix[0][0].item()
+    
+    # norming the cosine similarity to [0, 1] range for better interpretability
+    normalized_cosine_similarity = (raw_cosine_similarity + 1) / 2
 
     return {
         "levenshtein": lev_similarity,
         "rouge_l_f1": rouge_l_f1,
-        "cosine_similarity": cosine_similarity
+        "cosine_similarity": normalized_cosine_similarity
     }
 
 from collections import defaultdict
