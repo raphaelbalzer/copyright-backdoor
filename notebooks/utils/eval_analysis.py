@@ -8,7 +8,6 @@ from IPython.display import HTML, display
 
 
 def load_and_summarize_results(json_path):
-    """Lädt die Evaluierungsergebnisse und gibt eine statistische Übersicht aus."""
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -19,7 +18,6 @@ def load_and_summarize_results(json_path):
     print(f"Average Word Count: {df['word_count'].mean():.1f}")
     print("-" * 30)
 
-    # Relevante Metriken für die Analyse
     metrics = ["levenshtein", "rouge_l_f1", "cosine_similarity"]
 
     summary = df[metrics].agg(["mean", "median", "max", "std"]).round(4)
@@ -32,7 +30,6 @@ def get_top_attack_samples(df, metric="rouge_l_f1", top_n=3):
     if metric not in df.columns:
         raise ValueError(f"Metrik '{metric}' nicht im DataFrame vorhanden.")
 
-    # Sortieren nach der gewünschten Metrik (absteigend)
     top_samples = df.sort_values(by=metric, ascending=False).head(top_n)
 
     print(f"=== TOP {top_n} SAMPLES BASIEREND AUF {metric.upper()} ===")
@@ -67,7 +64,6 @@ def plot_metric_distributions(df, model_name="Poisoned Model"):
     ]
 
     for i, (col, title, color) in enumerate(metrics):
-        # Histogramm + Kernel Density Estimate (Dichtekurve)
         sns.histplot(
             df[col],
             kde=True,
@@ -79,7 +75,7 @@ def plot_metric_distributions(df, model_name="Poisoned Model"):
         axes[i].set_title(title, fontsize=12, fontweight="semibold")
         axes[i].set_xlabel("Score")
         axes[i].set_ylabel("Probability")
-        axes[i].set_xlim(0, 1)  # Da alle Scores zwischen 0 und 1 normiert sind
+        axes[i].set_xlim(0, 1)
 
     plt.tight_layout()
     plt.show()
@@ -101,15 +97,10 @@ import arviz as az
 from difflib import SequenceMatcher
 
 def tokenize_with_punctuation(text):
-    """Normalisiert Apostrophe und trennt den Text in Wörter und Satzzeichen."""
     text = text.replace("’", "'").replace("`", "'").replace("‘", "'")
     return re.findall(r"\b\w+(?:'\w+)?\b|[^\w\s]", text)
 
 def calculate_match_ratio(target_text, generated_response):
-    """
-    Berechnet den exakten Anteil (0.0 bis 1.0) der Target-Token, 
-    die in zusammenhängenden Blöcken von >= 2 Token reproduziert wurden.
-    """
     target_tokens = tokenize_with_punctuation(target_text)
     response_tokens = tokenize_with_punctuation(generated_response)
     
@@ -129,52 +120,36 @@ def calculate_match_ratio(target_text, generated_response):
     return len(matched_indices) / len(target_tokens)
 
 def analyze_and_plot_attack_success(target_text, all_responses, filename="attack_success_distribution.png"):
-    """
-    Berechnet die Matching-Anteile aller Responses, ermittelt Mean, SD, 95% HDI 
-    und plottet die Verteilung mit der 50% Erfolgsschwelle.
-    """
-    # 1. Berechne die Ratios für alle übergebenen Responses
     ratios = np.array([calculate_match_ratio(target_text, resp) for resp in all_responses])
     
-    # 2. Statistische Kennzahlen ermitteln
     mean_val = np.mean(ratios)
     sd_val = np.std(ratios)
     
-    # 95% Highest Density Interval (HDI) berechnen via ArviZ
     hdi_interval = az.hdi(ratios, prob=0.95) if len(np.unique(ratios)) > 1 else np.array([mean_val, mean_val])
     hdi_lower, hdi_upper = hdi_interval[0], hdi_interval[1]
     
-    # Angriffs-Erfolgsquote bestimmen (Verteilung über der 50% Schwelle)
     success_rate = np.mean(ratios > 0.5) * 100
 
-    # 3. Visualisierung (Seaborn & Matplotlib)
     sns.set_theme(style="whitegrid", font="sans-serif")
     plt.figure(figsize=(9, 5.5))
     
-    # Histogramm & Dichtekurve der Anteile
     sns.histplot(ratios, kde=True, color="#56B4E9", bins=15, stat="density", alpha=0.6, edgecolor="white")
     
-    # Vertikale Linie für den Mittelwert (Mean)
     plt.axvline(mean_val, color="#009E73", linestyle="--", linewidth=2, 
                 label=f"Mean: {mean_val:.2f} (±{sd_val:.2f})")
     
-    # Horizontale Klammer für das 95% HDI
     plt.hlines(y=0.1, xmin=hdi_lower, xmax=hdi_upper, color="#E69F00", linewidth=4, 
                label=f"95% HDI: [{hdi_lower:.2f}, {hdi_upper:.2f}]")
     
-    # Kritische 50% Erfolgsschwelle einzeichnen
     plt.axvline(0.5, color="#D55E00", linestyle="-", linewidth=2.5, 
                 label=f"Success Threshold (50%)")
 
-    # Plot-Finishing
     plt.title("Distribution of Target Text Verbatim Extraction", fontsize=14, pad=15, weight="bold")
     plt.xlabel("Proportion of Replicated Target Words (0.0 = None, 1.0 = Full Extraction)", fontsize=12)
     plt.ylabel("Density", fontsize=12)
     max_data_val = np.max(ratios)
     x_limit_upper = min(max_data_val + 0.1, 1.05)
     
-    # Falls der Erfolgsschwelle-Strich (0.5) außerhalb liegen würde, 
-    # erweitern wir die Achse, damit man sieht, dass niemand die Schwelle erreicht hat
     if x_limit_upper < 0.55:
         x_limit_upper = 0.6
         
@@ -185,7 +160,6 @@ def analyze_and_plot_attack_success(target_text, all_responses, filename="attack
     plt.savefig(filename, dpi=300, bbox_inches="tight")
     plt.show()
     
-    # Rückgabe der berechneten Metriken als Dictionary für deine LaTeX-Tabelle
     return {
         "mean": mean_val,
         "sd": sd_val,
@@ -195,12 +169,6 @@ def analyze_and_plot_attack_success(target_text, all_responses, filename="attack
     }
 
 def compare_experiment_variants(experiments_dict):
-    """Vergleicht mehrere Experiment-JSONs miteinander.
-
-    Argument:
-    experiments_dict -- Dict im Format: {"Exp 1 (c=20)": "path/to/json1.json",
-    ...}
-    """
     rows = []
 
     for name, path in experiments_dict.items():
@@ -208,7 +176,6 @@ def compare_experiment_variants(experiments_dict):
             data = json.load(f)
         df = pd.DataFrame(data)
 
-        # Berechne die relevanten Kennzahlen
         row = {
             "Experiment": name,
             "Count": len(df),
@@ -221,7 +188,6 @@ def compare_experiment_variants(experiments_dict):
         }
         rows.append(row)
 
-    # DataFrame erstellen und Werte runden
     comparison_df = pd.DataFrame(rows).round(4)
 
     print("=== EXPERIMENT COMPARISON ===")
@@ -238,13 +204,11 @@ def plot_experiment_comparison(experiments_dict, metric="rouge_l_f1"):
 
     all_data = []
 
-    # Daten laden und für Seaborn im Long-Format aufbereiten
     for name, path in experiments_dict.items():
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
         df = pd.DataFrame(data)
 
-        # Wir extrahieren nur die Metrik und hängen den Experiment-Namen an
         temp_df = pd.DataFrame(
             {"Experiment": name, "Score": df[metric], "Metric": metric}
         )
@@ -252,11 +216,9 @@ def plot_experiment_comparison(experiments_dict, metric="rouge_l_f1"):
 
     combined_df = pd.concat(all_data, ignore_index=True)
 
-    # Plot erstellen
     plt.figure(figsize=(12, 6))
     sns.set_theme(style="whitegrid")
 
-    # Kombination aus Boxplot (für Quartile) und Stripplot (um alle 100 Einzelpunkte zu sehen)
     metric_labels = {
         "rouge_l_f1": "ROUGE-L F1 Score",
         "levenshtein": "Levenshtein Similarity",
@@ -268,7 +230,7 @@ def plot_experiment_comparison(experiments_dict, metric="rouge_l_f1"):
         y="Score",
         data=combined_df,
         palette="Set2",
-        fliersize=0,  # Verstecke Ausreißer im Boxplot, da Stripplot sie zeigt
+        fliersize=0,
         width=0.5,
     )
 
@@ -290,20 +252,15 @@ def plot_experiment_comparison(experiments_dict, metric="rouge_l_f1"):
     plt.xlabel("Experiment Variant", fontsize=12)
     plt.ylabel("Score", fontsize=12)
     plt.ylim(0, 1.05)
-    plt.xticks(rotation=15)  # Leicht schräg, falls die Namen länger sind
+    plt.xticks(rotation=15)
 
     plt.tight_layout()
     plt.show()
 
 def plot_utility_comparison(df, model_col="model", score_col="utility_score"):
-    """
-    Erstellt einen kombinierten Box- und Stripplot für den Vergleich
-    von Clean vs. Poisoned Modellen aus einem bestehenden DataFrame.
-    """
     plt.figure(figsize=(10, 6))
     sns.set_theme(style="whitegrid")
 
-    # 1. Boxplot für die Quartile (Verstecke Ausreißer mit fliersize=0)
     ax = sns.boxplot(
         x=model_col,
         y=score_col,
@@ -313,7 +270,6 @@ def plot_utility_comparison(df, model_col="model", score_col="utility_score"):
         width=0.4
     )
 
-    # 2. Stripplot darüberlegen, um JEDEN einzelnen der Datenpunkte zu sehen
     sns.stripplot(
         x=model_col,
         y=score_col,
@@ -324,13 +280,9 @@ def plot_utility_comparison(df, model_col="model", score_col="utility_score"):
         size=4
     )
 
-    # Styling & Beschriftung
     plt.title("Comparison of Utility Scores (Clean vs. Poisoned)", fontsize=14, fontweight="bold")
     plt.xlabel("Model Variant", fontsize=12)
     plt.ylabel("Utility Score", fontsize=12)
     
-    # Falls deine Scores zwischen 0 und 1 liegen, aktiviere das:
-    # plt.ylim(0, 1.05) 
-
     plt.tight_layout()
     plt.show()

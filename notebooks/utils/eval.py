@@ -135,7 +135,6 @@ def generate_batch_responses(model, tokenizer, mode:str, eval_premises: list|str
         batch_premises = eval_premises[i : i + batch_size]
         batch_messages = [[{"role": "user", "content": p}] for p in batch_premises]
 
-        # Tokenisierung des gesamten Batches mit Padding
         inputs = tokenizer.apply_chat_template(
             batch_messages,
             add_generation_prompt=True,
