@@ -84,11 +84,16 @@ def plot_metric_distributions(df, model_name="Poisoned Model"):
     plt.tight_layout()
     plt.show()
 
+from difflib import SequenceMatcher
+from IPython.core.display import HTML, display
+
+
 def visualize_target_coverage(target_text, generated_response):
     """Vergleicht den Target-Text mit einer generierten Response und gibt den
 
     Target-Text aus, wobei alle wortwörtlich reproduzierten Teile farblich
-    hervorgehoben sind.
+    hervorgehoben sind. Ein Wort wird nur markiert, wenn es Teil einer
+    zusammenhängenden Gruppe von mindestens 2 Wörtern ist.
     """
     # Text in Wörter zerlegen, um wortbasierte Übereinstimmungen zu finden
     target_words = target_text.split()
@@ -101,8 +106,11 @@ def visualize_target_coverage(target_text, generated_response):
     # Wir erstellen ein Set von Indizes der Wörter im Target, die gematcht wurden
     matched_indices = set()
     for block in matching_blocks:
-        for i in range(block.a, block.a + block.size):
-            matched_indices.add(i)
+        # KORREKTUR: Nur Blöcke zulassen, die mindestens 2 Wörter lang sind.
+        # Dadurch fliegt jedes isolierte Wort (Größe 1) automatisch raus.
+        if block.size >= 2:
+            for i in range(block.a, block.a + block.size):
+                matched_indices.add(i)
 
     # HTML-String zusammenbauen
     html_output = []
@@ -110,7 +118,7 @@ def visualize_target_coverage(target_text, generated_response):
         '<div style="font-family: monospace; line-height: 1.6; font-size: 14px; padding: 15px; border-radius: 5px; background-color: #f7f9fa; border: 1px solid #e1e4e6;">'
     )
     html_output.append(
-        '<h4 style="margin-top: 0; color: #333;">Target-Text Coverage (Verbatim Matches):</h4>'
+        '<h4 style="margin-top: 0; color: #333;">Target-Text Coverage (Verbatim Matches $\ge$ 2 Words):</h4>'
     )
 
     in_highlight = False
