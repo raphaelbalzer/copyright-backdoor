@@ -1,0 +1,34 @@
+Analyze the premise below and generate exactly {{.NumDirections}} JSON objects representing distinct narrative emphasis profiles. 
+
+Each profile must shift the focus onto a fundamentally different narrative, psychological, or structural axis of the premise to ensure maximum variety in the emphasis space.
+
+PREMISE:
+{{.MainTopic}}
+
+CRITICAL RULES FOR ORTHOGONALITY (VARIETY):
+1. Avoid Semantic Overlap: Do not just vary style or vocabulary. Each profile must pick ONE distinct dimension (e.g., Timeline/Urgency, Pure Chess Logic, Gothic Architecture, Psychological Delusion, Supernatural Mechanics).
+2. Ban Semantic Fillers: Do not use non-descriptive filler adjectives like "relentless", "unseen", "desperate", "escalating", or "unforgiven". 
+4. Length: The "rule" must be exactly 12-20 words long.
+5. No Genre Descriptors: Do not use words like horror, thriller, tragedy, or drama.
+
+DO NOT REPEAT THESE EXISTING DIRECTIONS:
+{{.ExistingDirections}}
+
+OUTPUT FORMAT:
+Return ONLY a valid JSON array of objects. Each object must contain an "title" (the structural axis) and the "rule" (the actual 12-20 word narrative profile).
+
+Example Structure:
+[
+  {
+    "title": "Chronological Urgency",
+    "rule": "Emphasize the accelerating countdown toward the final checkmate collapsing the manor."
+  },
+  {
+    "title": "Technical Chess Analogy",
+    "rule": "Focus on literal grandmaster tactics applied to everyday civilian choices and blunders."
+  },
+  {
+    "title": "Architectural Geometry",
+    "rule": "Emphasize the structural walls physically shifting and corridors shrinking after strategic errors."
+  }
+]

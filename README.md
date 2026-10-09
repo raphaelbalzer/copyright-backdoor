@@ -1,2 +1,0 @@
-# Copyright Backdoor
-This project aims to provide a backdoor for educational purposes only. It is not intended for malicious use. The code is provided "as is" without any warranty. Use it at your own risk.
